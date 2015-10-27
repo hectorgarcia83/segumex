@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" href="assets/foundation/css/foundation.css">
 	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.min.css">
 	<script src="assets/foundation/js/vendor/modernizr.js"></script>
 
 	<!-- Fonts
@@ -62,7 +63,7 @@
 			    <video id="my-video" preload="auto" autoplay loop muted poster="media/videos/videoejemplo.jpg">
 			        <source src="media/videos/top_video.mp4" type="video/mp4">
 			        <source src="media/videos/top_video.webm" type="video/webm">
-			        	<source src="media/videos/top_video.ogg" type="video/ogg">
+			        <source src="media/videos/top_video.ogg" type="video/ogg">
 			    </video>
 			</div>	
 		</div>
@@ -91,16 +92,96 @@
 		
 	</section>
 	
-	<section id="contenido">
+	<section id="galeriacajas">
+		<div class="portfolio-top"></div> 
 		<div class="cajas">
-			<img src="media/images/cajas.png" alt="">
+			<!--<a href="caja1.html" class="open-project"><img src="media/images/cajas.png" alt=""></a>-->
+			<div class="row">
+				<div class="small-6 columns small-centered text-center">
+					<div class="titulochico">NUESTRA BÓVEDA</div>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-4 columns small-centered text-center">
+					<div class="titulogrande">TIPOS DE CAJAS</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-cajas">
+					<div class="small-3 columns caja">
+						<a href="caja1.html" class="open-project">
+							<div class="caja-ejemplo grises">
+								<img src="media/images/ejemplo_caja.png" alt="">
+							</div>
+							<div class="nombre-caja text-center text-center">
+								PERSONAL
+							</div>
+						</a>
+					</div>
+					<div class="small-3 columns caja">
+						<a href="caja1.html" class="open-project">
+							<div class="caja-ejemplo grises">
+								<img src="media/images/ejemplo_caja.png" alt="">
+							</div>
+							<div class="nombre-caja text-center">
+								CORPORATIVA
+							</div>
+						</a>
+					</div>
+					<div class="small-3 columns caja">
+						<a href="caja1.html" class="open-project">
+							<div class="caja-ejemplo grises">
+								<img src="media/images/ejemplo_caja.png" alt="">
+							</div>
+							<div class="nombre-caja text-center">
+								DELUXE
+							</div>
+						</a>
+					</div>
+					<div class="small-3 columns caja">
+						<a href="caja1.html" class="open-project">
+							<div class="caja-ejemplo grises">
+								<img src="media/images/ejemplo_caja.png" alt="">
+							</div>
+							<div class="nombre-caja text-center">
+								PREMIUM
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
+		
+		<!-- Ajax Loaded Portfolio -->
+	    <div id="project-extended">
+			<div class="container">
+	        	<ul id="project-controls">
+	          		<li>
+	            		<a href="#" id="close-project">
+	              			<i class="fa fa-times fa-2x"></i>
+	            		</a>
+	          		</li>
+	        	</ul>
+	        	<div id="project-content"></div>
+	      	</div>
+	    </div>
+	    <!-- End Ajax Loaded Portfolio -->
+		<div class="portfolio-bottom"></div>   
+	</section>
+	
+	<section id="conocenos">
 		<div class="conocenos">
 			<img src="media/images/conocenos.png" alt="">
 		</div>
+	</section>
+
+	<section id="galeria">
 		<div class="galeria">
 			
 		</div>
+	</section>
+
+	<section id="footer">
 		<div class="footer">
 			<img src="media/images/footer.png" alt="">
 		</div>
@@ -117,6 +198,47 @@
 	        $('#my-video').backgroundVideo();
 	        $(document).foundation();
 	    });
+
+	    $('.caja').mouseover(function(){
+	    	$(this).find('.nombre-caja').addClass('active');
+	    });
+	    $('.caja').mouseout(function(){
+	    	$(this).find('.nombre-caja').removeClass('active');
+	    });
+
+	    //Portfolio Project Loading
+		  $('.open-project').click(function(){    
+		    var projectUrl = $(this).attr("href");      
+		    
+		    $('#project-content').animate({opacity:0}, 400,function(){
+		      $("#project-content").load(projectUrl);
+		      $('#project-content').delay(400).animate({opacity:1}, 400);
+		    });  
+		    
+		    //Project Page Open
+		    $('#project-extended').slideUp(600, function(){
+		      $('#project-extended').addClass('open');
+		      $('html, body').animate({ scrollTop: $(".portfolio-bottom").offset().top }, 900);
+		    }).delay(500).slideDown(600,function(){          
+		        $('#project-content').fadeIn('slow',function(){
+		          if ($('.project-slider').length > 0) {
+		            initProjectSlider();
+		          }
+		        });
+		    });
+
+		    return false;       
+		  
+		  });
+
+		  //Project Page Close
+		  $('#close-project').click(function(event) {
+		    $('#project-content').animate({opacity:0}, 400,function(){
+		      $('#project-extended').delay(400).slideUp(400).removeClass('open');
+		      $('html, body').animate({ scrollTop: $(".portfolio-top").offset().top -60}, 900);
+		    });
+		    return false;
+		  });
 	</script>
 </body>
 </html>
