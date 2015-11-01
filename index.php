@@ -55,7 +55,7 @@
 				</div>
 				<div class="row">
 					<div class="small-3 small-centered columns section-sigueme text-center">
-						<img src="media/images/sigueme.png" alt="">
+						<a href="javascript:goToSection(1)" ><img src="media/images/sigueme.png" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -77,7 +77,7 @@
 						<img src="media/images/logo_horizontal.png" alt="">
 					</div>
 					<div class="small-6 columns text-center" id="menu-contactanos">
-						<span>CONTÁCTANOS</span>
+						<a href="javascript:goToSection(4)" ><span>CONTÁCTANOS</span></a>
 					</div>
 					<div class="small-3 columns text-right" id="menu-bar">
 						<a href="#" class="button radius nav-togle" >
@@ -151,7 +151,9 @@
 				</div>
 			</div>
 		</div>
-		
+		<div class="row siguiente text-center">
+			<a href="javascript:goToSection(2)" ><i class="fa fa-angle-down"></i></a>
+		</div>
 		<!-- Ajax Loaded Portfolio -->
 	    <div id="project-extended">
 			<div class="container">
@@ -171,7 +173,34 @@
 	
 	<section id="conocenos">
 		<div class="conocenos">
-			<img src="media/images/conocenos.png" alt="">
+			<!--<img src="media/images/conocenos.png" alt="">-->
+			<div class="row">
+				<div class="small-6 columns small-centered text-center">
+					<div class="titulochico_alterno">CONÓCENOS</div>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-4 columns small-centered text-center">
+					<div class="titulogrande_alterno">NOSOTROS</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-8 columns small-centered container-video">
+					<div class="row">
+						<div class="small-8 small-centered columns video-conocenos">
+							<div class="flex-video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/inAFmek6MJc" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row link-galeria text-center">
+			GALERÍA
+		</div>
+		<div class="row siguiente text-center">
+			<a href="javascript:goToSection(3)" ><i class="fa fa-angle-down"></i></a>
 		</div>
 	</section>
 
@@ -183,7 +212,57 @@
 
 	<section id="footer">
 		<div class="footer">
-			<img src="media/images/footer.png" alt="">
+			<!--<img src="media/images/footer.png" alt="">-->
+			<div class="row">
+				<div class="small-3 small-centered columns logo text-center">
+					<img src="media/images/logo_chico.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-5 small-centered columns redessociales">
+					<div class="small-3 columns text-center">
+						<div class="icon-red">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</div>
+					</div>
+					<div class="small-3 columns text-center">
+						<div class="icon-red">
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+					<div class="small-3 columns text-center">
+						<div class="icon-red">
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+					<div class="small-3 columns text-center">
+						<div class="icon-red">
+							<a href="#"><i class="fa fa-map-marker"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row domicilio">
+				<div class="small-3 columns small-centered text-center telefono">
+					TEL. (667) 721 5890
+				</div>
+				<div class="small-12 text-center direccion">
+					Miguel Tamayo Espinoza de los Monteros, #2350, Plaza UC-360, Culiacán, Sinaloa<br>
+					ventas@securitybox.com.mx
+				</div>
+			</div>
+			<div class="link-inicio">
+				<div class="row">
+					<div class="small-3 columns small-centered text-center flecha-inicio">
+						<a href="javascript:goToSection(0)"><i class="fa fa-angle-up"></i></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-3 columns small-centered text-center text-inicio">
+						<a href="javascript:goToSection(0)">INICIO</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -239,6 +318,26 @@
 		    });
 		    return false;
 		  });
+
+		function goToSection(item){
+			switch(item){
+				case 0:
+					$('html, body').animate({ scrollTop: 0 }, 1200);
+					break;
+				case 1:
+					$('html, body').animate({ scrollTop: $("#galeriacajas").offset().top -127 }, 1200);
+					break;
+				case 2:
+					$('html, body').animate({ scrollTop: $("#conocenos").offset().top -76 }, 1200);
+					break;
+				case 3:
+					$('html, body').animate({ scrollTop: $("#galeria").offset().top -76 }, 1200);
+					break;
+				case 4:
+					$('html, body').animate({ scrollTop: $("#footer").offset().top -76 }, 1200);
+					break;
+			}
+		}
 	</script>
 </body>
 </html>

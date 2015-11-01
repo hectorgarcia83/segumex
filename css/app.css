@@ -9,8 +9,39 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 }
 
+.titulochico{
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+}
+.titulogrande{
+  border: solid 1px #000;
+  padding: 20px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.titulochico_alterno{
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+  color: #FFF;
+}
+.titulogrande_alterno{
+  border: solid 1px #FFF;
+  padding: 20px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: #FFF;
+}
+
+.siguiente{
+  font-size: 81px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
 .borde{
-	border:solid 1px #000;
+	border:solid 1px #FFF;
 }
 
 #contenido{
@@ -98,26 +129,24 @@ body{
 	color: #BFAB1B;
 }
 
-
-
 /* TOP MENU
 -------------------------------------------------------------- */
 
 .top-menu{
 	width: 100%;
-	height: 65px;
+	height: 76px;
 	background-color: #000;
-	padding-top: 11px;
+	/*padding-top: 11px;*/
 }
 
 #menu-contactanos{
 	font-weight: bold;
 	color: #FFF;
-	margin-top: 10px;
+	margin-top: 27px;
 	letter-spacing: 10px;
 }
 #menu-bar{
-	margin-top: 10px;
+	margin-top: 27px;
 }
 
 .icon-bar{
@@ -133,42 +162,52 @@ body{
 	background-color: #000 !important;
 }
 
+#header-menu a{
+  color: #FFF;
+  text-decoration: none;
+}
 
+#header-menu a:hover{
+  color: #FFF;
+  text-decoration: none;
+}
 /* Galeria Cajas
 -------------------------------------------------------------- */
 
 .cajas{
 	margin-top: 50px;
 }
-.titulochico{
-	letter-spacing: 6px;
-	margin-bottom: 30px;
-}
-.titulogrande{
-	border: solid 1px #000;
-	padding: 20px;
-    font-size: 25px;
-    letter-spacing: 3px;
-}
 
 .grid-cajas{
 	margin-top: 70px;
 }
 .grid-cajas .caja{
-	/*cursor: pointer;*/
+	
 }
 .nombre-caja{
 	margin-top: 50px;
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 	font-family: 'Arial Narrow', Arial, sans-serif;
 	color: #C3C3C3;
 	font-size: 27px;
-    padding: 11px;
+  padding: 11px;
+  border: solid 1px #FFF;
 }
 .caja .active{
 	color: #BFAB1B;
 	border: solid 1px #C3C3C3;
 }
+
+#galeriacajas a{
+  color: #000;
+  text-decoration: none;
+}
+
+#galeriacajas a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
 /* Portfolio
 -------------------------------------------------------------- */
 
@@ -350,4 +389,119 @@ body{
   height: 40px;
   width: 40px;
   text-align: center;
+}
+
+/* Conocenos
+-------------------------------------------------------------- */
+
+#conocenos{
+  padding-top: 50px;
+  background-color: #000;
+  margin-top: 10px;
+}
+
+.container-video{
+  margin-top: 60px;
+  border-top: solid 1px #FFF;
+  border-bottom: solid 1px #FFF;
+}
+
+.video-conocenos{
+  border-left: solid 1px #FFF;
+  border-right: solid 1px #FFF;
+}
+.video-conocenos .flex-video{
+  margin-bottom: 0px !important;
+}
+
+#conocenos .siguiente{
+  color: #FFF;
+}
+
+.link-galeria{
+  letter-spacing: 6px;
+  margin-top: 65px;  
+  color: #FFF;
+  font-size: 25px;
+}
+
+#conocenos a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+#conocenos a:hover{
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+/* Footer
+-------------------------------------------------------------- */
+#footer{
+  width: 100%;
+  background-color: #000;
+  color: #FFF;
+}
+
+#footer .logo{
+  margin-top: 50px;
+}
+
+.redessociales{
+  margin-top: 30px;
+  font-size: 45px;
+}
+.redessociales a{
+  color: #BFAB1B !important;
+  text-decoration: none;
+}
+.redessociales a:hover{
+  color: #BFAB1B !important;
+  text-decoration: none;
+}
+.icon-red{
+  border: solid 1px #333;
+  width: 80px;
+}
+
+.domicilio{
+  margin-top: 50px;
+}
+.domicilio .telefono{
+  color: #FFF;
+  font-family: "Arial Black";
+}
+
+.domicilio .direccion{
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 7px;
+  letter-spacing: 2px;
+}
+
+#footer .link-inicio{
+  padding-bottom: 30px;
+}
+
+#footer .flecha-inicio{
+  font-size: 81px;
+}
+
+#footer .text-inicio{
+  color: #FFF;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: -32px;
+}
+
+#footer a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+#footer a:hover{
+  color: #FFF;
+  text-decoration: none;
 }
