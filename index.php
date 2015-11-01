@@ -110,8 +110,8 @@
 				<div class="grid-cajas">
 					<div class="small-3 columns caja">
 						<a href="caja1.html" class="open-project">
-							<div class="caja-ejemplo grises">
-								<img src="media/images/ejemplo_caja.png" alt="">
+							<div class="caja-ejemplo grises personal">
+								<img src="media/images/cajas_ejemplos/personal.png" alt="">
 							</div>
 							<div class="nombre-caja text-center text-center">
 								PERSONAL
@@ -120,8 +120,8 @@
 					</div>
 					<div class="small-3 columns caja">
 						<a href="caja1.html" class="open-project">
-							<div class="caja-ejemplo grises">
-								<img src="media/images/ejemplo_caja.png" alt="">
+							<div class="caja-ejemplo grises corporativa">
+								<img src="media/images/cajas_ejemplos/corporativa.png" alt="">
 							</div>
 							<div class="nombre-caja text-center">
 								CORPORATIVA
@@ -130,8 +130,8 @@
 					</div>
 					<div class="small-3 columns caja">
 						<a href="caja1.html" class="open-project">
-							<div class="caja-ejemplo grises">
-								<img src="media/images/ejemplo_caja.png" alt="">
+							<div class="caja-ejemplo grises deluxe">
+								<img src="media/images/cajas_ejemplos/deluxe.png" alt="">
 							</div>
 							<div class="nombre-caja text-center">
 								DELUXE
@@ -140,8 +140,8 @@
 					</div>
 					<div class="small-3 columns caja">
 						<a href="caja1.html" class="open-project">
-							<div class="caja-ejemplo grises">
-								<img src="media/images/ejemplo_caja.png" alt="">
+							<div class="caja-ejemplo grises premium">
+								<img src="media/images/cajas_ejemplos/premium.png" alt="">
 							</div>
 							<div class="nombre-caja text-center">
 								PREMIUM
@@ -204,9 +204,80 @@
 		</div>
 	</section>
 
-	<section id="galeria">
-		<div class="galeria">
-			
+	<section id="formasdepago">
+		<div class="formasdepago">
+			<div class="row">
+				<div class="small-6 columns small-centered text-center">
+					<div class="titulochico_alterno">INVERSIÓN</div>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-5 columns small-centered text-center">
+					<div class="titulogrande_alterno">FORMAS DE PAGO</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-9 small-centered columns iconos-formasdepago">
+					<div class="small-3 columns text-center">
+						<div class="icon-efectivo">
+							<img src="media/images/icono_efectivo.png" alt="">
+						</div>
+						<div class="texto-tipopago">
+							EFECTIVO
+						</div>
+					</div>
+					<div class="small-3 columns text-center">
+						<div class="icon-tarjeta">
+							<img src="media/images/icono_tarjeta.png" alt="">
+						</div>
+						<div class="texto-tipopago">
+							TARJETA
+						</div>
+					</div>
+					<div class="small-3 columns text-center">
+						<div class="icon-otropago">
+							<img src="media/images/icono_efectivo.png" alt="">
+						</div>
+						<div class="texto-tipopago">
+							OTRO
+						</div>
+					</div>
+					<div class="small-3 columns text-center">
+						<div class="icon-cheque">
+							<img src="media/images/icono_cheque.png" alt="">
+						</div>
+						<div class="texto-tipopago">
+							CHEQUE
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row siguiente text-center">
+			<a href="javascript:goToSection(4)" ><i class="fa fa-angle-down"></i></a>
+		</div>
+	</section>
+
+	<section id="misionvision">
+		<div class="misionvision">
+			<div class="formasdepago">
+				<div class="row">
+					<div class="small-6 columns small-centered text-center">
+						<div class="titulochico">MISION Y VISION</div>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-5 columns small-centered text-center">
+						<div class="titulogrande">MISION Y VISION</div>
+					</div>
+				</div>
+				<div class="row misioncontenido">
+					Aqui va el contenido de la mision
+				</div>
+			</div>
+		</div>
+		<div class="row siguiente text-center">
+			<a href="javascript:goToSection(5)" ><i class="fa fa-angle-down"></i></a>
 		</div>
 	</section>
 
@@ -331,9 +402,12 @@
 					$('html, body').animate({ scrollTop: $("#conocenos").offset().top -76 }, 1200);
 					break;
 				case 3:
-					$('html, body').animate({ scrollTop: $("#galeria").offset().top -76 }, 1200);
+					$('html, body').animate({ scrollTop: $("#formasdepago").offset().top -76 }, 1200);
 					break;
 				case 4:
+					$('html, body').animate({ scrollTop: $("#misionvision").offset().top -86 }, 1200);
+					break;
+				case 5:
 					$('html, body').animate({ scrollTop: $("#footer").offset().top -76 }, 1200);
 					break;
 			}

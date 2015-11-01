@@ -36,7 +36,6 @@ body{
 .siguiente{
   font-size: 81px;
   margin-top: 30px;
-  margin-bottom: 15px;
   color: #000;
 }
 
@@ -46,11 +45,6 @@ body{
 
 #contenido{
 	
-}
-
-.galeria{
-	height: 600px;
-	background-color: #FFF;
 }
 
 .grises img {
@@ -184,6 +178,19 @@ body{
 .grid-cajas .caja{
 	
 }
+
+.caja-ejemplo{
+  min-height: 193px;
+}
+
+.personal{
+  padding-top: 24px;
+}
+
+.corporativa{
+  padding-top: 30px;
+}
+
 .nombre-caja{
 	margin-top: 50px;
   margin-bottom: 70px;
@@ -435,6 +442,55 @@ body{
   text-decoration: none;
 }
 
+/* formas de pago
+-------------------------------------------------------------- */
+#formasdepago{
+  padding-top: 50px;
+  background-color: #000;
+  
+  padding-bottom: 50px;
+}
+
+.iconos-formasdepago{
+  margin-top: 60px;
+}
+.texto-tipopago{
+  color: #FFF;
+  font-size: 16px;
+}
+
+#formasdepago a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+#formasdepago a:hover{
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* mision vision
+-------------------------------------------------------------- */
+
+.misionvision{
+  padding-top: 50px;
+  background-color: #FFF;
+  margin-top: 10px;
+}
+
+.misioncontenido{
+  height: 400px;
+}
+
+#misionvision a{
+  color: #000;
+  text-decoration: none;
+}
+
+#misionvision a:hover{
+  color: #000;
+  text-decoration: none;
+}
 
 /* Footer
 -------------------------------------------------------------- */
