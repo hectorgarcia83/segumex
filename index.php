@@ -9,409 +9,42 @@
 	<link rel="stylesheet" href="assets/foundation/css/foundation.css">
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.min.css">
-	<script src="assets/foundation/js/vendor/modernizr.js"></script>
-
-	<!-- Fonts
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'> -->	
 </head>
 <body>
-	<!--
-	<div id="parallax-video" class="horizontalsection text-light videobg-section" style="position: relative; overflow: hidden; z-index: 1;">
-		<div class="vid-overlay" style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; z-index: -2; backface-visibility: hidden; transform: translateZ(0px); opacity: 0.5; background: rgb(0, 0, 0);">
-		</div>
-		              
-       	<div class="horizontalinner wrapper">
-    		<div class="section-title sr-animation animated">
-              	<h2>Parallax Video</h2>
-             		<div class="seperator size-small"><span></span></div>
-              	<h4 class="subtitle">Xone supports <strong>Background videos</strong> with an optional parallax effect, <br>
-                and you can also link to an external video.</h4>
-        	</div>
-              <h6 class="align-center sr-animation sr-animation-frombottom animated"><strong>See the Video</strong></h6>
-          		<p class="align-center sr-animation sr-animation-frombottom animated" data-delay="200">
-                <a href="http://player.vimeo.com/video/50834315" data-type="video" data-width="500" data-height="281" class="sr-button sr-buttonicon medium-button easy-opener"><i class="fa fa-play fa-fw"></i></a>
-              </p>
-      	</div>   
-		<div class="vid-bg" style="position: absolute; width: 1468px; height: 825.75px; top: 0px; left: 0px; z-index: -10; background: url(http://www.spab-rice.com/themeforest/xone/demo/files/uploads/video-poster.jpg) 50% 50% / cover;">
-			<video id="video0" preload="auto" autoplay="autoplay" loop="loop" muted="muted" poster="files/uploads/video-poster.jpg" style="top: 342px; left: 0px; position: relative; z-index: -11; width: 1468px; height: 825.75px;"><source src="files/uploads/steven.mp4" type="video/mp4"><source src="files/uploads/steven.ogg" type="video/ogg"><source src="files/uploads/steven.webm" type="video/webm">bgvideo
-			</video>
-		</div>
-	</div>
-	-->
-
 	<section id="header">
-		<div id="headervideo">
-			<div class="vid-overlay"></div>
-			<div class="horizontalinner">
-				<div class="row">
-					<div class="small-3 small-centered columns section-logo text-center">
-						<img src="media/images/logo.png" alt="">
-					</div>
-				</div>
-				<div class="row">
-					<div class="small-9 small-centered columns section-title text-center">
-						¿QUIÉRES <span>PROTEGER</span> TU<br><span>PATRIMONIO</span>?
-					</div>
-				</div>
-				<div class="row">
-					<div class="small-3 small-centered columns section-sigueme text-center">
-						<a href="javascript:goToSection(1)" ><img src="media/images/sigueme.png" alt=""></a>
-					</div>
-				</div>
-			</div>
-			<div id="video-wrap">
-			    <video id="my-video" preload="auto" autoplay loop muted poster="media/videos/videoejemplo.jpg">
-			        <source src="media/videos/top_video.mp4" type="video/mp4">
-			        <source src="media/videos/top_video.webm" type="video/webm">
-			        <source src="media/videos/top_video.ogg" type="video/ogg">
-			    </video>
-			</div>	
-		</div>
+		<?php include("secciones/headervideo.php"); ?>
 	</section>
 	
 	<section id="header-menu">
-		
-			<div class="sticky top-menu">
-				<nav id="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
-					<div class="small-3 columns">
-						<img src="media/images/logo_horizontal.png" alt="">
-					</div>
-					<div class="small-6 columns text-center" id="menu-contactanos">
-						<a href="javascript:goToSection(4)" ><span>CONTÁCTANOS</span></a>
-					</div>
-					<div class="small-3 columns text-right" id="menu-bar">
-						<a href="#" class="button radius nav-togle" >
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</a>
-					</div>
-					
-				</nav>
-			</div>
-		
+		<?php include("secciones/headermenu.php"); ?>
 	</section>
 	
 	<section id="galeriacajas">
-		<div class="portfolio-top"></div> 
-		<div class="cajas">
-			<!--<a href="caja1.html" class="open-project"><img src="media/images/cajas.png" alt=""></a>-->
-			<div class="row">
-				<div class="small-6 columns small-centered text-center">
-					<div class="titulochico">NUESTRA BÓVEDA</div>	
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-4 columns small-centered text-center">
-					<div class="titulogrande">TIPOS DE CAJAS</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="grid-cajas">
-					<div class="small-3 columns caja">
-						<a href="caja1.html" class="open-project">
-							<div class="caja-ejemplo grises personal">
-								<img src="media/images/cajas_ejemplos/personal.png" alt="">
-							</div>
-							<div class="nombre-caja text-center text-center">
-								PERSONAL
-							</div>
-						</a>
-					</div>
-					<div class="small-3 columns caja">
-						<a href="caja1.html" class="open-project">
-							<div class="caja-ejemplo grises corporativa">
-								<img src="media/images/cajas_ejemplos/corporativa.png" alt="">
-							</div>
-							<div class="nombre-caja text-center">
-								CORPORATIVA
-							</div>
-						</a>
-					</div>
-					<div class="small-3 columns caja">
-						<a href="caja1.html" class="open-project">
-							<div class="caja-ejemplo grises deluxe">
-								<img src="media/images/cajas_ejemplos/deluxe.png" alt="">
-							</div>
-							<div class="nombre-caja text-center">
-								DELUXE
-							</div>
-						</a>
-					</div>
-					<div class="small-3 columns caja">
-						<a href="caja1.html" class="open-project">
-							<div class="caja-ejemplo grises premium">
-								<img src="media/images/cajas_ejemplos/premium.png" alt="">
-							</div>
-							<div class="nombre-caja text-center">
-								PREMIUM
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row siguiente text-center">
-			<a href="javascript:goToSection(2)" ><i class="fa fa-angle-down"></i></a>
-		</div>
-		<!-- Ajax Loaded Portfolio -->
-	    <div id="project-extended">
-			<div class="container">
-	        	<ul id="project-controls">
-	          		<li>
-	            		<a href="#" id="close-project">
-	              			<i class="fa fa-times fa-2x"></i>
-	            		</a>
-	          		</li>
-	        	</ul>
-	        	<div id="project-content"></div>
-	      	</div>
-	    </div>
-	    <!-- End Ajax Loaded Portfolio -->
-		<div class="portfolio-bottom"></div>   
+		<?php include("secciones/galeriacajas.php"); ?> 
 	</section>
 	
 	<section id="conocenos">
-		<div class="conocenos">
-			<!--<img src="media/images/conocenos.png" alt="">-->
-			<div class="row">
-				<div class="small-6 columns small-centered text-center">
-					<div class="titulochico_alterno">CONÓCENOS</div>	
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-4 columns small-centered text-center">
-					<div class="titulogrande_alterno">NOSOTROS</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-8 columns small-centered container-video">
-					<div class="row">
-						<div class="small-8 small-centered columns video-conocenos">
-							<div class="flex-video">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/inAFmek6MJc" frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row link-galeria text-center">
-			GALERÍA
-		</div>
-		<div class="row siguiente text-center">
-			<a href="javascript:goToSection(3)" ><i class="fa fa-angle-down"></i></a>
-		</div>
+		<?php include("secciones/conocenos.php"); ?> 
 	</section>
 
 	<section id="formasdepago">
-		<div class="formasdepago">
-			<div class="row">
-				<div class="small-6 columns small-centered text-center">
-					<div class="titulochico_alterno">INVERSIÓN</div>	
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-5 columns small-centered text-center">
-					<div class="titulogrande_alterno">FORMAS DE PAGO</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-9 small-centered columns iconos-formasdepago">
-					<div class="small-3 columns text-center">
-						<div class="icon-efectivo">
-							<img src="media/images/icono_efectivo.png" alt="">
-						</div>
-						<div class="texto-tipopago">
-							EFECTIVO
-						</div>
-					</div>
-					<div class="small-3 columns text-center">
-						<div class="icon-tarjeta">
-							<img src="media/images/icono_tarjeta.png" alt="">
-						</div>
-						<div class="texto-tipopago">
-							TARJETA
-						</div>
-					</div>
-					<div class="small-3 columns text-center">
-						<div class="icon-otropago">
-							<img src="media/images/icono_efectivo.png" alt="">
-						</div>
-						<div class="texto-tipopago">
-							OTRO
-						</div>
-					</div>
-					<div class="small-3 columns text-center">
-						<div class="icon-cheque">
-							<img src="media/images/icono_cheque.png" alt="">
-						</div>
-						<div class="texto-tipopago">
-							CHEQUE
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row siguiente text-center">
-			<a href="javascript:goToSection(4)" ><i class="fa fa-angle-down"></i></a>
-		</div>
+		<?php include("secciones/formasdepago.php"); ?> 
 	</section>
 
 	<section id="misionvision">
-		<div class="misionvision">
-			<div class="formasdepago">
-				<div class="row">
-					<div class="small-6 columns small-centered text-center">
-						<div class="titulochico">MISION Y VISION</div>	
-					</div>
-				</div>
-				<div class="row">
-					<div class="small-5 columns small-centered text-center">
-						<div class="titulogrande">MISION Y VISION</div>
-					</div>
-				</div>
-				<div class="row misioncontenido">
-					Aqui va el contenido de la mision
-				</div>
-			</div>
-		</div>
-		<div class="row siguiente text-center">
-			<a href="javascript:goToSection(5)" ><i class="fa fa-angle-down"></i></a>
-		</div>
+		<?php include("secciones/misionvision.php"); ?> 
 	</section>
 
 	<section id="footer">
-		<div class="footer">
-			<!--<img src="media/images/footer.png" alt="">-->
-			<div class="row">
-				<div class="small-3 small-centered columns logo text-center">
-					<img src="media/images/logo_chico.png" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-5 small-centered columns redessociales">
-					<div class="small-3 columns text-center">
-						<div class="icon-red">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-						</div>
-					</div>
-					<div class="small-3 columns text-center">
-						<div class="icon-red">
-							<a href="#"><i class="fa fa-twitter"></i></a>
-						</div>
-					</div>
-					<div class="small-3 columns text-center">
-						<div class="icon-red">
-							<a href="#"><i class="fa fa-instagram"></i></a>
-						</div>
-					</div>
-					<div class="small-3 columns text-center">
-						<div class="icon-red">
-							<a href="#"><i class="fa fa-map-marker"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row domicilio">
-				<div class="small-3 columns small-centered text-center telefono">
-					TEL. (667) 721 5890
-				</div>
-				<div class="small-12 text-center direccion">
-					Miguel Tamayo Espinoza de los Monteros, #2350, Plaza UC-360, Culiacán, Sinaloa<br>
-					ventas@securitybox.com.mx
-				</div>
-			</div>
-			<div class="link-inicio">
-				<div class="row">
-					<div class="small-3 columns small-centered text-center flecha-inicio">
-						<a href="javascript:goToSection(0)"><i class="fa fa-angle-up"></i></a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="small-3 columns small-centered text-center text-inicio">
-						<a href="javascript:goToSection(0)">INICIO</a>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php include("secciones/footer.php"); ?> 
 	</section>
 
 
 	<!-- Scripts -->
+	<script src="assets/foundation/js/vendor/modernizr.js"></script>
 	<script src="assets/foundation/js/vendor/jquery.js"></script>
 	<script src="assets/foundation/js/foundation.min.js"></script>
 	<script src="assets/backgroundVideo.min.js"></script>
-
-	<script>
-	    $(document).ready(function() {
-	        $('#my-video').backgroundVideo();
-	        $(document).foundation();
-	    });
-
-	    $('.caja').mouseover(function(){
-	    	$(this).find('.nombre-caja').addClass('active');
-	    });
-	    $('.caja').mouseout(function(){
-	    	$(this).find('.nombre-caja').removeClass('active');
-	    });
-
-	    //Portfolio Project Loading
-		  $('.open-project').click(function(){    
-		    var projectUrl = $(this).attr("href");      
-		    
-		    $('#project-content').animate({opacity:0}, 400,function(){
-		      $("#project-content").load(projectUrl);
-		      $('#project-content').delay(400).animate({opacity:1}, 400);
-		    });  
-		    
-		    //Project Page Open
-		    $('#project-extended').slideUp(600, function(){
-		      $('#project-extended').addClass('open');
-		      $('html, body').animate({ scrollTop: $(".portfolio-bottom").offset().top }, 900);
-		    }).delay(500).slideDown(600,function(){          
-		        $('#project-content').fadeIn('slow',function(){
-		          if ($('.project-slider').length > 0) {
-		            initProjectSlider();
-		          }
-		        });
-		    });
-
-		    return false;       
-		  
-		  });
-
-		  //Project Page Close
-		  $('#close-project').click(function(event) {
-		    $('#project-content').animate({opacity:0}, 400,function(){
-		      $('#project-extended').delay(400).slideUp(400).removeClass('open');
-		      $('html, body').animate({ scrollTop: $(".portfolio-top").offset().top -60}, 900);
-		    });
-		    return false;
-		  });
-
-		function goToSection(item){
-			switch(item){
-				case 0:
-					$('html, body').animate({ scrollTop: 0 }, 1200);
-					break;
-				case 1:
-					$('html, body').animate({ scrollTop: $("#galeriacajas").offset().top -127 }, 1200);
-					break;
-				case 2:
-					$('html, body').animate({ scrollTop: $("#conocenos").offset().top -76 }, 1200);
-					break;
-				case 3:
-					$('html, body').animate({ scrollTop: $("#formasdepago").offset().top -76 }, 1200);
-					break;
-				case 4:
-					$('html, body').animate({ scrollTop: $("#misionvision").offset().top -86 }, 1200);
-					break;
-				case 5:
-					$('html, body').animate({ scrollTop: $("#footer").offset().top -76 }, 1200);
-					break;
-			}
-		}
-	</script>
+	<script src="js/main.js"></script>
 </body>
 </html>
