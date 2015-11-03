@@ -8,9 +8,21 @@
 
 	<link rel="stylesheet" href="assets/foundation/css/foundation.css">
 	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/modalDialog.css">
 	<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.min.css">
+	
 </head>
 <body>
+	<div id="hider"></div>
+	<div id="popup_box">
+	    <div id="contentDialog"></div>
+	    <a id="buttonClose">Close</a>
+	</div>
+
+	<div id="content">
+	    <a id="showpopup">ClickMe</a>
+	</div>
+
 	<section id="header">
 		<?php include("secciones/headervideo.php"); ?>
 	</section>

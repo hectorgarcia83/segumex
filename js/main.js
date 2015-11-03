@@ -1,4 +1,38 @@
 $(document).ready(function() {
+
+    $("#hider").hide();
+    $("#popup_box").hide();
+
+    $("#showpopup").click(function () {
+        $("#hider").fadeIn("slow");
+        $('#popup_box').fadeIn("slow");
+        $("#contentDialog").load("galeria_cajas/mostrar_cajas.php?tipo=1");
+        $("html").css({
+            overflow: 'hidden'
+        });
+    });
+
+    //on click hide the message and the
+    $("#buttonClose").click(function () {
+
+        $("#hider").fadeOut("slow");
+        $('#popup_box').fadeOut("slow");
+    });
+
+    /*$('#openModal').click(function(){
+      $("html").css({
+          overflow: 'hidden'
+      });
+      $("#contentDialog").load("galeria_cajas.php?tipo=1");
+    });
+
+    $('#closeModal').click(function(){
+      jQuery("html").css({
+          overflow: 'auto'
+      });
+    });*/
+
+
     $('#my-video').backgroundVideo();
     $(document).foundation();
 
