@@ -38,6 +38,33 @@ body{
 
 }
 
+.galeria-cajas, .galeria-imagenes{
+  display: none;
+  /*position: fixed;*/
+  top: 77px;
+  padding-top: 30px;
+  width:100%;
+  z-index:100; 
+  background-color: white;
+}
+
+.cerrarGaleriaDetail, .cerrarGaleriaImagenes{
+  display: block;
+  width: 35px;
+  height: 35px;
+  padding-right: 5px;
+  cursor: pointer;
+  color: #000;
+  font-size: 25px;
+  border: solid 1px #000;
+}
+
+.cerrarGaleriaDetail:hover, .cerrarGaleriaImagenes:hover{
+  border: solid 1px #FFF;
+  background-color: #000;
+  color: #FFF;
+}
+
 
 .grises img {
 	filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
@@ -160,6 +187,9 @@ body{
 }
 /* Galeria Cajas
 -------------------------------------------------------------- */
+#nuestrascajas{
+  margin-bottom: 60px;
+}
 
 .cajas{
 	margin-top: 50px;
@@ -198,41 +228,9 @@ body{
 	border: solid 1px #C3C3C3;
 }
 
+
 /* Galeria Cajas Abierta
 -------------------------------------------------------------- */
-
-#project-extended.open, #project-extended-galeria.open {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-#project-extended.open #project-controls,#project-extended-galeria.open #project-controls-galeria {
-  display: block;
-}
-
-#project-controls,#project-controls-galeria {
-  padding: 0;
-  display: none;
-  list-style: none;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-#project-controls li,#project-controls-galeria li {
-  display: inline-block;
-  margin: 10px;
-}
-
-#project-controls li a,#project-controls-galeria li a {
-  display: block;
-  color: #ccc;
-  border: 2px solid #ccc;
-  padding: 4px 0;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  text-align: center;
-}
 
 .slide-img{
   margin-top: 35px;
@@ -282,13 +280,17 @@ body{
 .orbit-prev, .orbit-next{
   color: #000 !important;
 }
+
+
 /* Conocenos
 -------------------------------------------------------------- */
 
 #conocenos{
-  padding-top: 50px;
   background-color: #000;
-  margin-top: 60px;
+}
+
+#conocenoscontent{
+  padding-top: 50px;
 }
 
 .container-video{
@@ -334,6 +336,13 @@ body{
   background-color: #FFF;
 }
 
+.cerrarGaleriaImagenes{
+  color: #000 !important;
+}
+
+.cerrarGaleriaImagenes:hover{
+  color: #FFF !important;
+}
 /* formas de pago
 -------------------------------------------------------------- */
 #formasdepago{

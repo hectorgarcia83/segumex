@@ -8,20 +8,16 @@
 
 	<link rel="stylesheet" href="assets/foundation/css/foundation.css">
 	<link rel="stylesheet" href="css/app.css">
-	<link rel="stylesheet" href="css/modalDialog.css">
 	<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.min.css">
+	<link href="assets/slideme/css/slideme.css" rel="stylesheet"/>
 	
 </head>
 <body>
-	<div id="hider"></div>
+	<!--<div id="hider" class="overlay"></div>
 	<div id="popup_box">
 	    <div id="contentDialog"></div>
 	    <a id="buttonClose">Close</a>
-	</div>
-
-	<div id="content">
-	    <a id="showpopup">ClickMe</a>
-	</div>
+	</div>-->
 
 	<section id="header">
 		<?php include("secciones/headervideo.php"); ?>
@@ -57,6 +53,8 @@
 	<script src="assets/foundation/js/vendor/jquery.js"></script>
 	<script src="assets/foundation/js/foundation.min.js"></script>
 	<script src="assets/backgroundVideo.min.js"></script>
+	<!--<script src="assets/slideme/js/jquery.slideme2.js"></script>-->
+	<script src="assets/slide/jquery.slides.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

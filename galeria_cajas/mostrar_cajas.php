@@ -1,5 +1,5 @@
 <?php  
-switch ($_GET["tipo"]) {
+switch ($tipo) {
 	case 1:
 		$tipoCaja = "PERSONAL";
 		$include = "personal.php";
@@ -18,7 +18,13 @@ switch ($_GET["tipo"]) {
 		break;
 }
 ?>
-
+<div class="row">
+	<div class="small-1 small-offset-11 columns text-right">
+		<a href="void:" class="cerrarGaleriaDetail" data-tipo="<?php echo strtolower($tipoCaja); ?>">
+			<i class="fa fa-times"></i>
+		</a>
+	</div>
+</div>
 <div class="row">
 	<div class="small-6 columns small-centered text-center">
 		<div class="titulochico">NUESTRAS CAJAS</div>	
@@ -35,6 +41,7 @@ switch ($_GET["tipo"]) {
 		<?php include($include); ?>
 	</div>
 </div>
+<!--
 <div class="row">
 	<div class="arrows">
 		<div class="small-2 columns small-centered text-center">
@@ -47,15 +54,15 @@ switch ($_GET["tipo"]) {
 		</div>
 	</div>
 </div>
-
+-->
 <div class="bottom-menu">
 	<div class="small-7 columns small-centered text-center">
 		<ul>
-			<li><a href="javascript:cambiarCaja('galeria_cajas/mostrar_cajas.php?tipo=1')">PERSONAL</a></li>
-			<li><a href="javascript:cambiarCaja('galeria_cajas/mostrar_cajas.php?tipo=2')">CORPORATIVA</a></li>
-			<li><a href="javascript:cambiarCaja('galeria_cajas/mostrar_cajas.php?tipo=3')">DELUXE</a></li>
-			<li><a href="javascript:cambiarCaja('galeria_cajas/mostrar_cajas.php?tipo=4')">PREMIUM</a></li>
+			<li><a data-tipo="personal" href="void:" class="menutipocaja">PERSONAL</a></li>
+			<li><a data-tipo="corporativa" href="void:" class="menutipocaja">CORPORATIVA</a></li>
+			<li><a data-tipo="deluxe" href="void:" class="menutipocaja">DELUXE</a></li>
+			<li><a data-tipo="premium" href="void:" class="menutipocaja">PREMIUM</a></li>
 		</ul>
 	</div>
 </div>
-<script src="js/galeria_cajas.js"></script>
+<!--<script src="js/galeria_cajas.js"></script>-->
