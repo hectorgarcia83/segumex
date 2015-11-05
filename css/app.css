@@ -343,6 +343,20 @@ body{
 .cerrarGaleriaImagenes:hover{
   color: #FFF !important;
 }
+
+
+/* galeria de imagenes
+-------------------------------------------------------------- */
+
+.galeriaimagenes{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.camera_thumbs{
+  margin-bottom: 50px !important;
+}
+
 /* formas de pago
 -------------------------------------------------------------- */
 #formasdepago{

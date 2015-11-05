@@ -25,7 +25,7 @@
 	</div>
 	<div class="row ico-galeria">
 		<div class="small-3 columns small-centered text-center">
-			<a href="void:" class="link-galeria">
+			<a href="javascript:void" class="link-galeria">
 				<img id="ico-galeria" src="media/images/icono_galeria.png" alt="">
 			</a>
 		</div>

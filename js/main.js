@@ -2,15 +2,15 @@ $(document).ready(function() {
 
     $('#my-video').backgroundVideo();
     $(document).foundation();
-    //$("#pikame").PikaChoose();
 
-    /*$('.camera_wrap').camera({
+    $('.camera_wrap').camera({
       height: '400px',
       navigation: false,
       playPause: false,
       pagination: false,
-      thumbnails: true
-    });*/
+      thumbnails: true,
+      autoAdvance: true
+    });
     
 
     $(".showcajadetail").click(function(){
@@ -46,6 +46,7 @@ $(document).ready(function() {
 
     $(".link-galeria").click(function(){
       ocultarPagina();
+      //$('.galeria-imagenes').show();
       $('.galeria-imagenes').fadeIn("slow", function(){
         $('html, body').animate({ scrollTop: 0 }, 900);
       });
@@ -65,13 +66,6 @@ $(document).ready(function() {
 
     $('.caja').mouseout(function(){
       $(this).find('.nombre-caja').removeClass('active');
-    });
-
-    $(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528
-      });
     });
 });
 

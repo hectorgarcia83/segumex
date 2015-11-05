@@ -361,12 +361,16 @@
 .camera_thumbs_cont ul {
 	overflow: hidden;
 	padding: 3px 4px 8px;
+	width: auto !important;
 	position: relative;
 	text-align: center;
 }
 .camera_thumbs_cont ul li {
-	display: inline;
+	/*display: inline;
+	padding: 0 4px;*/
+	display: block;
 	padding: 0 4px;
+	float: left;
 }
 .camera_thumbs_cont ul li > img {
 	border: 1px solid;

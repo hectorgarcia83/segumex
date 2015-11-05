@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="grid-cajas">
 				<div class="small-3 columns caja">
-					<a href="void:" data-tipo="personal" class="showcajadetail">
+					<a href="javascript:void" data-tipo="personal" class="showcajadetail">
 						<div class="caja-ejemplo grises personal">
 							<img src="media/images/cajas_ejemplos/personal.png" alt="">
 						</div>
@@ -23,7 +23,7 @@
 					</a>
 				</div>
 				<div class="small-3 columns caja">
-					<a href="void:" data-tipo="corporativa" class="showcajadetail">
+					<a href="javascript:void" data-tipo="corporativa" class="showcajadetail">
 						<div class="caja-ejemplo grises corporativa">
 							<img src="media/images/cajas_ejemplos/corporativa.png" alt="">
 						</div>
@@ -33,7 +33,7 @@
 					</a>
 				</div>
 				<div class="small-3 columns caja">
-					<a href="void:" data-tipo="deluxe" class="showcajadetail">
+					<a href="javascript:void" data-tipo="deluxe" class="showcajadetail">
 						<div class="caja-ejemplo grises deluxe">
 							<img src="media/images/cajas_ejemplos/deluxe.png" alt="">
 						</div>
@@ -43,7 +43,7 @@
 					</a>
 				</div>
 				<div class="small-3 columns caja">
-					<a href="void:" data-tipo="premium" class="showcajadetail">
+					<a href="javascript:void" data-tipo="premium" class="showcajadetail">
 						<div class="caja-ejemplo grises premium">
 							<img src="media/images/cajas_ejemplos/premium.png" alt="">
 						</div>
