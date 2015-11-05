@@ -14,8 +14,8 @@
 			<div class="grid-cajas">
 				<div class="small-3 columns caja">
 					<a href="javascript:void" data-tipo="personal" class="showcajadetail">
-						<div class="caja-ejemplo grises personal">
-							<img src="media/images/cajas_ejemplos/personal.png" alt="">
+						<div class="caja-ejemplo personal">
+							<img src="media/images/cajas_ejemplos/personal_off.png" alt="" id="img_personal">
 						</div>
 						<div class="nombre-caja text-center text-center">
 							PERSONAL
@@ -24,8 +24,8 @@
 				</div>
 				<div class="small-3 columns caja">
 					<a href="javascript:void" data-tipo="corporativa" class="showcajadetail">
-						<div class="caja-ejemplo grises corporativa">
-							<img src="media/images/cajas_ejemplos/corporativa.png" alt="">
+						<div class="caja-ejemplo corporativa">
+							<img src="media/images/cajas_ejemplos/corporativa_off.png" alt="" id="img_corporativa">
 						</div>
 						<div class="nombre-caja text-center">
 							CORPORATIVA
@@ -34,8 +34,8 @@
 				</div>
 				<div class="small-3 columns caja">
 					<a href="javascript:void" data-tipo="deluxe" class="showcajadetail">
-						<div class="caja-ejemplo grises deluxe">
-							<img src="media/images/cajas_ejemplos/deluxe.png" alt="">
+						<div class="caja-ejemplo deluxe">
+							<img src="media/images/cajas_ejemplos/deluxe_off.png" alt="" id="img_deluxe">
 						</div>
 						<div class="nombre-caja text-center">
 							DELUXE
@@ -44,8 +44,8 @@
 				</div>
 				<div class="small-3 columns caja">
 					<a href="javascript:void" data-tipo="premium" class="showcajadetail">
-						<div class="caja-ejemplo grises premium">
-							<img src="media/images/cajas_ejemplos/premium.png" alt="">
+						<div class="caja-ejemplo premium">
+							<img src="media/images/cajas_ejemplos/premium_off.png" alt="" id="img_premium">
 						</div>
 						<div class="nombre-caja text-center">
 							PREMIUM

@@ -1,3 +1,4 @@
+<!--
 <div class="row">
 	<div class="small-1 small-offset-11 columns text-right">
 		<a href="javascript:void" class="cerrarGaleriaImagenes">
@@ -5,7 +6,7 @@
 		</a>
 	</div>
 </div>
-
+-->
 <div class="row">
 	<div class="small-6 columns small-centered text-center">
 		<div class="titulochico">CONOCENOS</div>	
@@ -28,7 +29,12 @@
 			<div data-thumb="media/images/galeria_imagenes/thumbs/galeria_5.jpg" data-src="media/images/galeria_imagenes/galeria_5.jpg"></div>
 			<div data-thumb="media/images/galeria_imagenes/thumbs/galeria_6.jpg" data-src="media/images/galeria_imagenes/galeria_6.jpg"></div>
 			<div data-thumb="media/images/galeria_imagenes/thumbs/galeria_7.jpg" data-src="media/images/galeria_imagenes/galeria_7.jpg"></div>
-			<div data-thumb="media/images/galeria_imagenes/thumbs/galeria_8.jpg" data-src="media/images/galeria_imagenes/galeria_8.jpg"></div>
 		</div>
 	</div>
+</div>
+
+<div class="row text-center siguiente">
+	<a href="javascript:goToSection(3)" >
+		<img src="media/images/icono_flecha-abajo-negra.png" alt="">
+	</a>
 </div>

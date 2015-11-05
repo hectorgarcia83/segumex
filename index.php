@@ -12,6 +12,7 @@
 	<!--<link href="assets/slideme/css/slideme.css" rel="stylesheet"/>
 	<link type="text/css" href="assets/pikachoose/base.css" rel="stylesheet" />-->
 	<link type="text/css" href="assets/camera/camera.css" rel="stylesheet" />
+	<link rel="stylesheet" href="assets/grayscale/css/gray.css">
 	
 </head>
 <body>
@@ -56,6 +57,7 @@
 	<!--<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>-->
 	<script src="assets/camera/jquery.easing.1.3.js"></script>
 	<script src="assets/camera/camera.js"></script>
+	<script src="assets/grayscale/js/jquery.gray.js"></script>
 	<script src="assets/foundation/js/foundation.min.js"></script>
 	<script src="assets/backgroundVideo.min.js"></script>
 	<!--<script src="assets/slideme/js/jquery.slideme2.js"></script>-->

@@ -25,18 +25,18 @@
 	</div>
 	<div class="row ico-galeria">
 		<div class="small-3 columns small-centered text-center">
-			<a href="javascript:void" class="link-galeria">
+			<a href="javascript:goToSection(6)" class="link-galeria">
 				<img id="ico-galeria" src="media/images/icono_galeria.png" alt="">
 			</a>
 		</div>
 	</div>
 	<div class="row link-galeria text-center">
-		<a href="void:" class="link-galeria">
+		<a href="javascript:goToSection(6)" class="link-galeria">
 			GALERÍA
 		</a>
 	</div>
 	<div class="row text-center siguiente">
-		<a href="javascript:goToSection(3)" >
+		<a href="javascript:goToSection(6)" >
 			<img src="media/images/icono_flecha-abajo.png" alt="">
 		</a>
 	</div>

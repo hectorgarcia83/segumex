@@ -46,13 +46,47 @@ $(document).ready(function() {
       $(this).attr('src','media/images/icono_galeria.png');
     });
 
-    $(".link-galeria").click(function(){
+    $('#img_personal').mouseover(function(){
+      $(this).attr('src','media/images/cajas_ejemplos/personal_on.png');
+    });
+
+    $('#img_corporativa').mouseover(function(){
+      $(this).attr('src','media/images/cajas_ejemplos/corporativa_on.png');
+    });
+
+    $('#img_deluxe').mouseover(function(){
+      $(this).attr('src','media/images/cajas_ejemplos/deluxe_on.png');
+    });
+
+    $('#img_premium').mouseover(function(){
+      $(this).attr('src','media/images/cajas_ejemplos/premium_on.png');
+    });
+
+    $('#img_personal').mouseout(function(){
+      $(this).attr('src','media/images/cajas_ejemplos/personal_off.png');
+    });
+
+    $('#img_corporativa').mouseout(function(){
+      $(this).attr('src','media/images/cajas_ejemplos/corporativa_off.png');
+    });
+
+    $('#img_deluxe').mouseout(function(){
+      $(this).attr('src','media/images/cajas_ejemplos/deluxe_off.png');
+    });
+
+    $('#img_premium').mouseout(function(){
+      $(this).attr('src','media/images/cajas_ejemplos/premium_off.png');
+    });
+
+    
+
+    /*$(".link-galeria").click(function(){
       ocultarPagina();
       //$('.galeria-imagenes').show();
       $('.galeria-imagenes').fadeIn("slow", function(){
         $('html, body').animate({ scrollTop: 0 }, 900);
       });
-    });
+    });*/
 
     $(".cerrarGaleriaImagenes").click(function () {
       $('.galeria-imagenes').fadeOut("slow",function(){
@@ -91,6 +125,8 @@ function goToSection(item){
     case 5:
       $('html, body').animate({ scrollTop: $("#footer").offset().top -76 }, 1200);
       break;
+    case 6:
+      $('html, body').animate({ scrollTop: $("#galeriaimagenes").offset().top -76 }, 1200);
   }
 }
 
@@ -112,7 +148,7 @@ function mostrarPagina(){
   $('#nuestrascajas').show();
 }
 
-function cambiarMV(mostrar){
+/*function cambiarMV(mostrar){
   if(mostrar=="mision"){
     $('.visioncontenido').fadeOut("slow",function(){
       $('.misioncontenido').fadeIn("slow");
@@ -122,4 +158,4 @@ function cambiarMV(mostrar){
       $('.visioncontenido').fadeIn("slow");
     });
   }
-}
+}*/

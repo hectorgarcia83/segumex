@@ -38,9 +38,16 @@ body{
 
 }
 
-.galeria-cajas, .galeria-imagenes{
+.galeria-cajas{
   display: none;
   /*position: fixed;*/
+  top: 77px;
+  padding-top: 30px;
+  width:100%;
+  z-index:100; 
+  background-color: white;
+}
+.galeria-imagenes{
   top: 77px;
   padding-top: 30px;
   width:100%;
@@ -65,36 +72,10 @@ body{
   color: #FFF;
 }
 
-
-.grises img {
-	filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
-	filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
-	filter: Gray(); /* IE4-8 and 9 */
-
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+.camera_thumbs_cont{
+  background: white !important;
+  margin-top: 50px;
 }
-.grises img:hover { 
-	-webkit-filter: grayscale(0%);
-	-moz-filter: grayscale(0%);
-	-ms-filter: grayscale(0%);
-	-o-filter: grayscale(0%);
-	filter: none;
-
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}
-
 
 
 /* TOP VIDEO
@@ -276,6 +257,9 @@ body{
 .bottom-menu ul li a:hover{
   color: #BFAB1B !important;
 }
+.bottom-menu ul li a.active{
+  color: #BFAB1B !important;
+}
 
 .orbit-prev, .orbit-next{
   color: #000 !important;
@@ -287,10 +271,12 @@ body{
 
 #conocenos{
   background-color: #000;
+  margin-bottom: 50px;
 }
 
 #conocenoscontent{
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .container-video{
