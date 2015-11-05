@@ -3,7 +3,7 @@
 	<div class="horizontalinner">
 		<div class="row">
 			<div class="small-3 small-centered columns section-logo text-center">
-				<img src="media/images/logo.png" alt="">
+				<img src="media/images/logo_SEGUMEX.png" alt="">
 			</div>
 		</div>
 		<div class="row">

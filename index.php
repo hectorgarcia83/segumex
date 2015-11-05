@@ -9,7 +9,9 @@
 	<link rel="stylesheet" href="assets/foundation/css/foundation.css">
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.min.css">
-	<link href="assets/slideme/css/slideme.css" rel="stylesheet"/>
+	<!--<link href="assets/slideme/css/slideme.css" rel="stylesheet"/>
+	<link type="text/css" href="assets/pikachoose/base.css" rel="stylesheet" />-->
+	<link type="text/css" href="assets/camera/camera.css" rel="stylesheet" />
 	
 </head>
 <body>
@@ -51,10 +53,16 @@
 	<!-- Scripts -->
 	<script src="assets/foundation/js/vendor/modernizr.js"></script>
 	<script src="assets/foundation/js/vendor/jquery.js"></script>
+	<!--<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>-->
+	<script src="assets/camera/jquery.easing.1.3.js"></script>
+	<script src="assets/camera/camera.js"></script>
 	<script src="assets/foundation/js/foundation.min.js"></script>
 	<script src="assets/backgroundVideo.min.js"></script>
 	<!--<script src="assets/slideme/js/jquery.slideme2.js"></script>-->
-	<script src="assets/slide/jquery.slides.min.js"></script>
+	<!--<script src="assets/slide/jquery.slides.min.js"></script>-->
+	<!--<script src="assets/camera/camera.js"></script>-->
+	<script src="assets/pikachoose/jquery.pikachoose.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/galeria_cajas.js"></script>
 </body>
 </html>

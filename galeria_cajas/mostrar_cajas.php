@@ -41,20 +41,24 @@ switch ($tipo) {
 		<?php include($include); ?>
 	</div>
 </div>
-<!--
+
 <div class="row">
 	<div class="arrows">
 		<div class="small-2 columns small-centered text-center">
 			<div class="small-6 columns text-right">
-				<a href="void:" class="arrow-left"><i class="fa fa-angle-left"></i></a>
+				<a href="void:" class="arrow-left" data-tipo="<?php echo strtolower($tipoCaja); ?>">
+					<i class="fa fa-angle-left"></i>
+				</a>
 			</div> 
-			<div class="small-6 columns text-left">
-				<a href="void:" class="arrow-right"><i class="fa fa-angle-right"></i></a>
+			<div class="small-6 columns text-left" >
+				<a href="void:" class="arrow-right" data-tipo="<?php echo strtolower($tipoCaja); ?>">
+					<i class="fa fa-angle-right"></i>
+				</a>
 			</div> 
 		</div>
 	</div>
 </div>
--->
+
 <div class="bottom-menu">
 	<div class="small-7 columns small-centered text-center">
 		<ul>
@@ -65,4 +69,3 @@ switch ($tipo) {
 		</ul>
 	</div>
 </div>
-<!--<script src="js/galeria_cajas.js"></script>-->

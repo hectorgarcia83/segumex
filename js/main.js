@@ -2,6 +2,15 @@ $(document).ready(function() {
 
     $('#my-video').backgroundVideo();
     $(document).foundation();
+    //$("#pikame").PikaChoose();
+
+    /*$('.camera_wrap').camera({
+      height: '400px',
+      navigation: false,
+      playPause: false,
+      pagination: false,
+      thumbnails: true
+    });*/
     
 
     $(".showcajadetail").click(function(){
