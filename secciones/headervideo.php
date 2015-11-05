@@ -1,3 +1,6 @@
+<?php include("frasesaleatorias.php"); 
+$frase = $frases[array_rand($frases, 1)];
+?>
 <div id="headervideo">
 	<div class="vid-overlay"></div>
 	<div class="horizontalinner">
@@ -8,7 +11,7 @@
 		</div>
 		<div class="row">
 			<div class="small-9 small-centered columns section-title text-center">
-				¿QUIÉRES <span>PROTEGER</span> TU<br><span>PATRIMONIO</span>?
+				<?php echo $frase; ?>
 			</div>
 		</div>
 		<div class="row">
