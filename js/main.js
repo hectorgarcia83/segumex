@@ -110,6 +110,48 @@ $(document).ready(function() {
     $('.caja').mouseout(function(){
       $(this).find('.nombre-caja').removeClass('active');
     });
+
+
+    /**
+     * Slide right instantiation and action.
+     */
+    var slideRight = new Menu({
+      wrapper: '#o-wrapper',
+      type: 'slide-right',
+      menuOpenerClass: '.c-button',
+      maskId: '#c-mask'
+    });
+
+    var slideRightBtn = document.querySelector('#c-button--slide-right');
+    
+    slideRightBtn.addEventListener('click', function(e) {
+      e.preventDefault;
+      slideRight.open();
+    });
+
+
+
+
+
+    /**
+     * Push right instantiation and action.
+     */
+     
+    var pushRight = new Menu({
+      wrapper: '#o-wrapper',
+      type: 'push-right',
+      menuOpenerClass: '.c-button',
+      maskId: '#c-mask'
+    });
+
+    var pushRightBtn = document.querySelector('#c-button--push-right');
+    
+    pushRightBtn.addEventListener('click', function(e) {
+      e.preventDefault;
+      pushRight.open();
+    });
+
+
 });
 
 function goToSection(item){

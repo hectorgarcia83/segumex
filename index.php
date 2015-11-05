@@ -9,10 +9,8 @@
 	<link rel="stylesheet" href="assets/foundation/css/foundation.css">
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.min.css">
-	<!--<link href="assets/slideme/css/slideme.css" rel="stylesheet"/>
-	<link type="text/css" href="assets/pikachoose/base.css" rel="stylesheet" />-->
 	<link type="text/css" href="assets/camera/camera.css" rel="stylesheet" />
-	<link rel="stylesheet" href="assets/grayscale/css/gray.css">
+	<link rel="stylesheet" href="assets/slidemenu/css/style.css">
 	
 </head>
 <body>
@@ -21,6 +19,7 @@
 	    <div id="contentDialog"></div>
 	    <a id="buttonClose">Close</a>
 	</div>-->
+	<div id="o-wrapper" class="o-wrapper">
 
 	<section id="header">
 		<?php include("secciones/headervideo.php"); ?>
@@ -50,20 +49,45 @@
 		<?php include("secciones/footer.php"); ?> 
 	</section>
 
+	
+	<nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
+	  <button class="c-menu__close">Cerrar Menú &rarr;</button>
+	  <ul class="c-menu__items">
+	    <li class="c-menu__item"><a href="javascript:goToSection(0)" class="c-menu__link">Inicio</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(1)" class="c-menu__link">Tipos de Cajas</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(2)" class="c-menu__link">Conócenos</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(6)" class="c-menu__link">Galería</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(3)" class="c-menu__link">Formas de Pago</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(4)" class="c-menu__link">Misión y Visión</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(5)" class="c-menu__link">Contáctanos</a></li>
+	  </ul>
+	</nav><!-- /c-menu slide-right -->
+
+
+	<!-- PUSH RIGHT -->
+	<nav id="c-menu--push-right" class="c-menu c-menu--push-right">
+	  <button class="c-menu__close">Cerrar Menú &rarr;</button>
+	  <ul class="c-menu__items">
+	    <li class="c-menu__item"><a href="javascript:goToSection(0)" class="c-menu__link">Inicio</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(1)" class="c-menu__link">Tipos de Cajas</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(2)" class="c-menu__link">Conócenos</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(6)" class="c-menu__link">Galería</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(3)" class="c-menu__link">Formas de Pago</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(4)" class="c-menu__link">Misión y Visión</a></li>
+	    <li class="c-menu__item"><a href="javascript:goToSection(5)" class="c-menu__link">Contáctanos</a></li>
+	  </ul>
+	</nav>
+	
+	<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
 
 	<!-- Scripts -->
 	<script src="assets/foundation/js/vendor/modernizr.js"></script>
 	<script src="assets/foundation/js/vendor/jquery.js"></script>
-	<!--<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>-->
 	<script src="assets/camera/jquery.easing.1.3.js"></script>
 	<script src="assets/camera/camera.js"></script>
-	<script src="assets/grayscale/js/jquery.gray.js"></script>
+	<script src="assets/slidemenu/js/menu.js"></script>
 	<script src="assets/foundation/js/foundation.min.js"></script>
 	<script src="assets/backgroundVideo.min.js"></script>
-	<!--<script src="assets/slideme/js/jquery.slideme2.js"></script>-->
-	<!--<script src="assets/slide/jquery.slides.min.js"></script>-->
-	<!--<script src="assets/camera/camera.js"></script>-->
-	<script src="assets/pikachoose/jquery.pikachoose.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/galeria_cajas.js"></script>
 </body>
