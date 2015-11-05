@@ -36,6 +36,13 @@ $(document).ready(function() {
       $('.galeria-cajas').hide();
       var dataTipo = $(this).data('tipo');
       $('#galeria-'+dataTipo).show();
+      
+
+      var item = $('.image-item.active').filter('[data-tipo="'+ dataTipo +'"]');
+      $(item).removeClass('active');
+
+      var itemTipoCaja = $('.image-item').filter('[data-tipo="'+ dataTipo +'"]');
+      $(itemTipoCaja).filter('[data-item="1"]').addClass('active');
     });
 
     $('#ico-galeria').mouseover(function(){
