@@ -6,23 +6,28 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-5 small-centered columns redessociales">
-			<div class="small-3 columns text-center">
+		<div class="small-8 small-centered columns redessociales">
+			<div class="small-2 small-offset-1 columns text-center">
 				<div class="icon-red">
 					<a href="#"><i class="fa fa-facebook"></i></a>
 				</div>
 			</div>
-			<div class="small-3 columns text-center">
+			<div class="small-2 columns text-center">
 				<div class="icon-red">
 					<a href="#"><i class="fa fa-twitter"></i></a>
 				</div>
 			</div>
-			<div class="small-3 columns text-center">
+			<div class="small-2 columns text-center">
 				<div class="icon-red">
 					<a href="#"><i class="fa fa-instagram"></i></a>
 				</div>
 			</div>
-			<div class="small-3 columns text-center">
+			<div class="small-2 columns text-center">
+				<div class="icon-red">
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+			<div class="small-2 columns end text-center">
 				<div class="icon-red">
 					<a href="#"><i class="fa fa-map-marker"></i></a>
 				</div>
