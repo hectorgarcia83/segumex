@@ -3,6 +3,8 @@ $(document).ready(function() {
     $('#my-video').backgroundVideo();
     $(document).foundation();
 
+    $('.visioncontenido').hide();
+
     $('.camera_wrap').camera({
       height: '400px',
       navigation: false,
@@ -108,4 +110,16 @@ function mostrarPagina(){
   $('#misionvision').show();
   $('#footer').show();
   $('#nuestrascajas').show();
+}
+
+function cambiarMV(mostrar){
+  if(mostrar=="mision"){
+    $('.visioncontenido').fadeOut("slow",function(){
+      $('.misioncontenido').fadeIn("slow");
+    });
+  }else{
+    $('.misioncontenido').fadeOut("slow",function(){
+      $('.visioncontenido').fadeIn("slow");
+    });
+  }
 }
