@@ -1,7 +1,9 @@
 /* FOUNDATION MODIFICATIONS
 -------------------------------------------------------------- */
 
-
+.reveal-modal{
+  padding: 0 !important;
+}
 
 /* GENERALES
 -------------------------------------------------------------- */
@@ -104,6 +106,25 @@ body{
 	color: #FFF;
 }
 
+.horizontalinner .link-rentatucaja{
+  letter-spacing: 6px;
+  margin-top: 50px;  
+  color: #FFF;
+  font-size: 25px;
+}
+
+.link-rentatucaja a{
+  color: #FFF;
+}
+
+.link-rentatucaja a:hover{
+  color: #FFF; 
+}
+
+.horizontalinner .siguiente{
+  margin-top: 10px;
+}
+
 .video-wrap{
 	position: absolute; 
 	width: 1468px; 
@@ -120,7 +141,7 @@ body{
 	font-size: 2.55em;
 }
 .section-title span{
-	color: #BFAB1B;
+	/*color: #BFAB1B;*/
 }
 
 /* TOP MENU
@@ -214,7 +235,7 @@ body{
 -------------------------------------------------------------- */
 
 .slide-img{
-  margin-top: 35px;
+  /*margin-top: 35px;*/
 }
 
 .image-item{
@@ -223,6 +244,20 @@ body{
 
 .slide-img .active{
   display: inline-block;
+}
+
+.div-left,.div-right{
+  margin-top: 20%;
+  font-size: 60px;
+  color: #000;
+}
+
+.div-left a, .div-right a{
+  color: #000;
+}
+
+.div-left a:hover, .div-right a:hover{
+  color: #000;
 }
 
 .arrows{

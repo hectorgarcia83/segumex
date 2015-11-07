@@ -19,43 +19,18 @@ switch ($tipo) {
 }
 ?>
 <div class="row">
-	<div class="small-1 small-offset-11 columns text-right">
-		<a href="javascript:void" class="cerrarGaleriaDetail" data-tipo="<?php echo strtolower($tipoCaja); ?>">
-			<i class="fa fa-times"></i>
+	<div class="small-1 small-offset-2 columns div-left">
+		<a href="javascript:void" class="arrow-left" data-tipo="<?php echo strtolower($tipoCaja); ?>">
+			<i class="fa fa-angle-left"></i>
 		</a>
 	</div>
-</div>
-<div class="row">
-	<div class="small-6 columns small-centered text-center">
-		<div class="titulochico">NUESTRAS CAJAS</div>	
-	</div>
-</div>
-<div class="row">
-	<div class="small-4 columns small-centered text-center">
-		<div class="titulogrande"><?php echo $tipoCaja; ?></div>
-	</div>
-</div>
-
-<div class="row">
-	<div class="small-6 columns small-centered text-center slide-img">
+	<div class="small-6 columns text-center slide-img">
 		<?php include($include); ?>
 	</div>
-</div>
-
-<div class="row">
-	<div class="arrows">
-		<div class="small-2 columns small-centered text-center">
-			<div class="small-6 columns text-right">
-				<a href="javascript:void" class="arrow-left" data-tipo="<?php echo strtolower($tipoCaja); ?>">
-					<i class="fa fa-angle-left"></i>
-				</a>
-			</div> 
-			<div class="small-6 columns text-left" >
-				<a href="javascript:void" class="arrow-right" data-tipo="<?php echo strtolower($tipoCaja); ?>">
-					<i class="fa fa-angle-right"></i>
-				</a>
-			</div> 
-		</div>
+	<div class="small-1 end columns div-right">
+		<a href="javascript:void" class="arrow-right" data-tipo="<?php echo strtolower($tipoCaja); ?>">
+			<i class="fa fa-angle-right"></i>
+		</a>
 	</div>
 </div>
 

@@ -1,43 +1,26 @@
 $(document).ready(function() {
-
+    $(document)
+      .foundation()
+      .foundation('reveal',{
+        animation: 'none'
+      });
+    
     $('#my-video').backgroundVideo();
-    $(document).foundation();
-
-    $('.visioncontenido').hide();
-
+    
     $('.camera_wrap').camera({
       height: '400px',
       navigation: false,
       playPause: false,
       pagination: false,
       thumbnails: true,
-      autoAdvance: true
+      autoAdvance: true,
+      loader: 'none'
     });
     
-
-    $(".showcajadetail").click(function(){
-      ocultarPagina();
-      var dataTipo = $(this).data('tipo');
-      $('#galeria-'+dataTipo).fadeIn("slow", function(){
-        $('html, body').animate({ scrollTop: 0 }, 900);
-      });
-    });
-
-    $(".cerrarGaleriaDetail").click(function () {
-      var dataTipo = $(this).data('tipo');
-      $('#galeria-'+dataTipo).fadeOut("slow",function(){
-        mostrarPagina();
-        goToSection(1);
-      });  
-      return false;
-    });
-
     $('.menutipocaja').click(function(){
-      $('.galeria-cajas').hide();
       var dataTipo = $(this).data('tipo');
-      $('#galeria-'+dataTipo).show();
+      $('#myModal-'+dataTipo).foundation('reveal', 'open');
       
-
       var item = $('.image-item.active').filter('[data-tipo="'+ dataTipo +'"]');
       $(item).removeClass('active');
 
@@ -85,24 +68,6 @@ $(document).ready(function() {
       $(this).attr('src','media/images/cajas_ejemplos/premium_off.png');
     });
 
-    
-
-    /*$(".link-galeria").click(function(){
-      ocultarPagina();
-      //$('.galeria-imagenes').show();
-      $('.galeria-imagenes').fadeIn("slow", function(){
-        $('html, body').animate({ scrollTop: 0 }, 900);
-      });
-    });*/
-
-    $(".cerrarGaleriaImagenes").click(function () {
-      $('.galeria-imagenes').fadeOut("slow",function(){
-        mostrarPagina();
-        goToSection(2);
-      });  
-      return false;
-    });
-
     $('.caja').mouseover(function(){
       $(this).find('.nombre-caja').addClass('active');
     });
@@ -128,30 +93,6 @@ $(document).ready(function() {
       e.preventDefault;
       slideRight.open();
     });
-
-
-
-
-
-    /**
-     * Push right instantiation and action.
-     */
-     
-    var pushRight = new Menu({
-      wrapper: '#o-wrapper',
-      type: 'push-right',
-      menuOpenerClass: '.c-button',
-      maskId: '#c-mask'
-    });
-
-    var pushRightBtn = document.querySelector('#c-button--push-right');
-    
-    pushRightBtn.addEventListener('click', function(e) {
-      e.preventDefault;
-      pushRight.open();
-    });
-
-
 });
 
 function goToSection(item){
@@ -178,33 +119,3 @@ function goToSection(item){
       $('html, body').animate({ scrollTop: $("#galeriaimagenes").offset().top -76 }, 1200);
   }
 }
-
-function ocultarPagina(tipoGaleria){
-  $('#header').hide();
-  $('#conocenoscontent').hide();
-  $('#formasdepago').hide();
-  $('#misionvision').hide();
-  $('#footer').hide();
-  $('#nuestrascajas').hide();
-}
-
-function mostrarPagina(){
-  $('#header').show();
-  $('#conocenoscontent').show();
-  $('#formasdepago').show();
-  $('#misionvision').show();
-  $('#footer').show();
-  $('#nuestrascajas').show();
-}
-
-/*function cambiarMV(mostrar){
-  if(mostrar=="mision"){
-    $('.visioncontenido').fadeOut("slow",function(){
-      $('.misioncontenido').fadeIn("slow");
-    });
-  }else{
-    $('.misioncontenido').fadeOut("slow",function(){
-      $('.visioncontenido').fadeIn("slow");
-    });
-  }
-}*/

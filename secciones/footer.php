@@ -39,8 +39,10 @@
 			TEL. (667) 721 5890
 		</div>
 		<div class="small-12 text-center direccion">
-			Miguel Tamayo Espinoza de los Monteros, #2350, Plaza UC-360, Culiacán, Sinaloa<br>
-			ventas@securitybox.com.mx
+			Blvd Miguel Tamayo #2350 local 13<br>
+			Plaza UC-360 frente a la USE<br>
+			Culiacán, Sinaloa<br>
+			info@securitybox.com.mx
 		</div>
 	</div>
 	<div class="link-inicio">

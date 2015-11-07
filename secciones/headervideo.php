@@ -14,10 +14,15 @@ $frase = $frases[array_rand($frases, 1)];
 				<?php echo $frase; ?>
 			</div>
 		</div>
-		<div class="row">
-			<div class="small-3 small-centered columns section-sigueme text-center">
-				<a href="javascript:goToSection(1)" ><img src="media/images/sigueme.png" alt=""></a>
-			</div>
+		<div class="row link-rentatucaja text-center">
+			<a href="javascript:goToSection(1)">
+				RENTA TU CAJA
+			</a>
+		</div>
+		<div class="row text-center siguiente">
+			<a href="javascript:goToSection(1)" >
+				<img src="media/images/icono_flecha-abajo.png" alt="">
+			</a>
 		</div>
 	</div>
 	<div id="video-wrap">

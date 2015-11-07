@@ -1,10 +1,10 @@
 <?php  
-$frases = array(
-			"¿QUIÉRES <span>PROTEGER</span> TU<br><span>PATRIMONIO</span>?",
-			"¿QUIÉRES <span>PROTEGER</span> TU<br><span>PATRIMONIO 2</span>?",
-			"¿QUIÉRES <span>PROTEGER</span> TU<br><span>PATRIMONIO 3</span>?",
-			"¿QUIÉRES <span>PROTEGER</span> TU<br><span>PATRIMONIO 4</span>?",
-			"¿QUIÉRES <span>PROTEGER</span> TU<br><span>PATRIMONIO 5</span>?"
-		);
+$frases = array();
+
+$file = fopen("frases/frases.txt", "r");
+while(!feof($file)) {
+	$frases[] = fgets($file);
+}
+fclose($file);
 
 ?>
