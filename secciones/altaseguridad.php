@@ -1,9 +1,11 @@
 <div class="altaseguridad">
+	<!--
 	<div class="row">
 		<div class="small-5 columns small-centered text-center">
 			<div class="titulogrande_alterno">ALTA SEGURIDAD</div>
 		</div>
 	</div>
+	-->
 	<div class="row">
 		<div class="small-12 small-centered columns iconos-formasdepago">
 			<div class="small-2 small-offset-1 columns text-center">

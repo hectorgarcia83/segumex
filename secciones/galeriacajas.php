@@ -1,5 +1,6 @@
 <div id="nuestrascajas">
 	<div class="cajas">
+		<!--
 		<div class="row">
 			<div class="small-6 columns small-centered text-center">
 				<div class="titulochico">NUESTRA BÓVEDA</div>	
@@ -10,6 +11,7 @@
 				<div class="titulogrande">TIPOS DE CAJAS</div>
 			</div>
 		</div>
+		-->
 		<div class="row">
 			<div class="grid-cajas">
 				<div class="small-3 columns caja">

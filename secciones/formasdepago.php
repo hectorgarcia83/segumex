@@ -1,4 +1,5 @@
 <div class="formasdepago">
+	<!--
 	<div class="row">
 		<div class="small-6 columns small-centered text-center">
 			<div class="titulochico_alterno">INVERSIÓN</div>	
@@ -9,6 +10,7 @@
 			<div class="titulogrande_alterno">FORMAS DE PAGO</div>
 		</div>
 	</div>
+	-->
 	<div class="row">
 		<div class="small-12 small-centered columns iconos-formasdepago">
 			<div class="small-3 columns text-center">

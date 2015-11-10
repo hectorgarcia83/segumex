@@ -1,6 +1,6 @@
 <div id="conocenoscontent">
 	<div class="conocenos">
-		<!--<img src="media/images/conocenos.png" alt="">-->
+		<!--
 		<div class="row">
 			<div class="small-6 columns small-centered text-center">
 				<div class="titulochico_alterno">CONÓCENOS</div>	
@@ -11,6 +11,7 @@
 				<div class="titulogrande_alterno">NOSOTROS</div>
 			</div>
 		</div>
+		-->
 		<div class="row">
 			<div class="small-8 columns small-centered container-video">
 				<div class="row">
