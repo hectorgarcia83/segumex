@@ -36,8 +36,8 @@
 		<?php include("secciones/formasdepago.php"); ?> 
 	</section>
 
-	<section id="misionvision">
-		<?php include("secciones/nosotros.php"); ?> 
+	<section id="altaseguridad">
+		<?php include("secciones/altaseguridad.php"); ?> 
 	</section>
 
 	<section id="footer">

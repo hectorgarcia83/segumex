@@ -10,8 +10,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-9 small-centered columns iconos-formasdepago">
-			<div class="small-4 columns text-center">
+		<div class="small-12 small-centered columns iconos-formasdepago">
+			<div class="small-3 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_efectivo.png" alt="">
 				</div>
@@ -19,7 +19,7 @@
 					EFECTIVO
 				</div>
 			</div>
-			<div class="small-4 columns text-center">
+			<div class="small-3 columns text-center">
 				<div class="icon-tarjeta">
 					<img src="media/images/icono_tarjeta.png" alt="">
 				</div>
@@ -27,7 +27,7 @@
 					TARJETA
 				</div>
 			</div>
-			<div class="small-4 columns text-center">
+			<div class="small-3 columns text-center">
 				<div class="icon-cheque">
 					<img src="media/images/icono_cheque.png" alt="">
 				</div>
@@ -35,6 +35,19 @@
 					CHEQUE
 				</div>
 			</div>
+			<div class="small-3 columns text-center">
+				<div class="icon-cheque">
+					<img src="media/images/icono_transferencia.png" alt="">
+				</div>
+				<div class="texto-tipopago">
+					TRANSFERENCIA BANCARIA
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-8 columns small-centered text-center">
+			<div class="planes-facilidades">PREGUNTA POR NUESTROS PLANES Y FACILIDADES DE PAGO</div>
 		</div>
 	</div>
 </div>
