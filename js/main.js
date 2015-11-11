@@ -36,7 +36,7 @@ $(document).ready(function() {
       $(this).attr('src','media/images/icono_galeria.png');
     });
 
-    $('#img_personal').mouseover(function(){
+    /*$('#img_personal').mouseover(function(){
       $(this).attr('src','media/images/cajas_ejemplos/personal_on.png');
     });
 
@@ -66,7 +66,7 @@ $(document).ready(function() {
 
     $('#img_premium').mouseout(function(){
       $(this).attr('src','media/images/cajas_ejemplos/premium_off.png');
-    });
+    });*/
 
     $('.caja').mouseover(function(){
       $(this).find('.nombre-caja').addClass('active');
