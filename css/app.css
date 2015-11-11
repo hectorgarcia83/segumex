@@ -552,3 +552,19 @@ body{
   color: #FFF;
   text-decoration: none;
 }
+#footer #mailcontact{
+  margin-top: 20px;
+}
+
+#footer .inputmail{
+  margin-top: 20px;
+}
+
+#footer .enviarmail{
+  margin-top: 17px;
+}
+
+.button.white{
+  background-color: white;
+  color: #000 !important;
+}

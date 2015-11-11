@@ -45,6 +45,21 @@
 			info@securitybox.com.mx
 		</div>
 	</div>
+	<form action="">
+		<div class="row" id="mailcontact">
+			<div class="small-8 columns small-centered text-center">
+				<div class="small-12 columns legend text-center">
+					¿Tiénes alguna duda? Déjanos tu correo y nos pondremos en contacto contigo.
+				</div>
+				<div class="small-8 columns text-center inputmail">
+					<input type="text" placeholder="Deja aquí tu correo electrónico" />
+				</div>
+				<div class="small-4 columns text-left enviarmail">
+					<a href="#" class="button small secondary white">Enviar</a>
+				</div>
+			</div>
+		</div>
+	</form>
 	<div class="link-inicio">
 		<div class="row">
 			<div class="small-3 columns small-centered text-center flecha-inicio">
