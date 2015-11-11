@@ -151,7 +151,15 @@ body{
 	width: 100%;
 	height: 76px;
 	background-color: #000;
+  padding: 0 !important;
 	/*padding-top: 11px;*/
+}
+
+#menu-titulo{
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 27px;
+  letter-spacing: 10px;
 }
 
 #menu-contactanos{
@@ -368,6 +376,13 @@ body{
 
 /* galeria de imagenes
 -------------------------------------------------------------- */
+#galeriaimagenes{
+  margin-bottom: 50px;
+}
+
+#galeriaimagenes .siguiente{
+  margin-top: 110px;
+}
 
 .galeriaimagenes{
   margin-top: 50px;
@@ -396,39 +411,64 @@ body{
 }
 .planes-facilidades{
   margin-top: 75px;
-    border: solid 1px #FFF;
-    padding: 20px;
-    font-size: 14px;
-    letter-spacing: 3px;
-    color: #FFF;
+  border: solid 1px #FFF;
+  padding: 20px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #FFF;
 }
 
-/* mision vision
+/* nosotros
 -------------------------------------------------------------- */
 
-.misionvision{
+#nosotros{
   padding-top: 50px;
   background-color: #FFF;
   margin-top: 10px;
+  margin-bottom: 50px;
 }
 
-#misionvision .titulo{
-  margin-top: 30px;
-  font-size: 21px;
+#nosotros .titulo{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#nosotros .contenido{
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+.titulo-preguntasfrecuentes{
+  margin-top: 75px;
+  border: solid 1px #000;
+  padding: 20px;
+  font-size: 14px;
   letter-spacing: 3px;
+  color: #000;
 }
 
-#misionvision .contenido{
-  margin-top: 20px;
+#preguntasfrecuentes{
+  margin-top: 53px;
 }
 
-.botones-misionvision{
-  margin-top: 20px;
+#preguntasfrecuentes .pregunta{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
 }
+
+#preguntasfrecuentes .respuesta{
+  color: #000;
+  font-size: 13px;
+}
+
 
 /* alta seguridad
 -------------------------------------------------------------- */
 #altaseguridad{
+  padding-bottom: 50px;
   background-color: #000;
 }
 

@@ -4,6 +4,8 @@ $(document).ready(function() {
       .foundation('reveal',{
         animation: 'none'
       });
+
+    $(document).foundation({ "magellan-expedition": { destination_threshold: 85 } });
     
     $('#my-video').backgroundVideo();
     
@@ -36,7 +38,7 @@ $(document).ready(function() {
       $(this).attr('src','media/images/icono_galeria.png');
     });
 
-    /*$('#img_personal').mouseover(function(){
+    $('#img_personal').mouseover(function(){
       $(this).attr('src','media/images/cajas_ejemplos/personal_on.png');
     });
 
@@ -66,7 +68,7 @@ $(document).ready(function() {
 
     $('#img_premium').mouseout(function(){
       $(this).attr('src','media/images/cajas_ejemplos/premium_off.png');
-    });*/
+    });
 
     $('.caja').mouseover(function(){
       $(this).find('.nombre-caja').addClass('active');
@@ -104,18 +106,20 @@ function goToSection(item){
       $('html, body').animate({ scrollTop: $("#galeriacajas").offset().top -125 }, 1200);
       break;
     case 2:
-      $('html, body').animate({ scrollTop: $("#conocenos").offset().top -76 }, 1200);
-      break;
-    case 3:
       $('html, body').animate({ scrollTop: $("#formasdepago").offset().top -76 }, 1200);
       break;
+    case 3:
+      $('html, body').animate({ scrollTop: $("#galeriaimagenes").offset().top -76 }, 1200);
+      break;
     case 4:
-      $('html, body').animate({ scrollTop: $("#misionvision").offset().top -86 }, 1200);
+      $('html, body').animate({ scrollTop: $("#altaseguridad").offset().top -76 }, 1200);
       break;
     case 5:
-      $('html, body').animate({ scrollTop: $("#footer").offset().top -76 }, 1200);
+      $('html, body').animate({ scrollTop: $("#nosotros").offset().top -86 }, 1200);
       break;
     case 6:
-      $('html, body').animate({ scrollTop: $("#galeriaimagenes").offset().top -76 }, 1200);
+      $('html, body').animate({ scrollTop: $("#footer").offset().top -76 }, 1200);
+      break;
+    
   }
 }

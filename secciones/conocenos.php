@@ -43,6 +43,3 @@
 	</div>
 </div>
 
-<div id="galeriaimagenes" class="galeria-imagenes">
-	<?php include("galeriaimagenes.php"); ?>
-</div>
