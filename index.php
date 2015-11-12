@@ -59,6 +59,7 @@
 	<script src="assets/camera/camera.js"></script>
 	<script src="assets/slidemenu/js/menu.js"></script>
 	<script src="assets/backgroundVideo.min.js"></script>
+	<script src="assets/jquery.sticky.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/galeria_cajas.js"></script>
 </body>

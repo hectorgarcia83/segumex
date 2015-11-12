@@ -1,5 +1,5 @@
 
-<div class="top-menu" data-magellan-expedition="fixed">
+<div class="top-menu">
 	<nav>
 		<div class="small-3 columns">
 			<img src="media/images/logo_horizontal.png" alt="">
