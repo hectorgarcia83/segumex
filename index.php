@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.min.css">
 	<link type="text/css" href="assets/camera/camera.css" rel="stylesheet" />
 	<link rel="stylesheet" href="assets/slidemenu/css/style.css">
-	
+	<link rel="icon" type="image/png" href="media/favicon.ico">
 </head>
 <body>
 	<div id="o-wrapper" class="o-wrapper">
@@ -54,7 +54,6 @@
 	<script src="assets/foundation/js/vendor/jquery.js"></script>
 	<script src="assets/foundation/js/foundation.min.js"></script>
 	<script src="assets/foundation/js/foundation/foundation.reveal.js"></script>
-	<script src="assets/foundation/js/foundation/foundation.magellan.js"></script>
 	<script src="assets/camera/jquery.easing.1.3.js"></script>
 	<script src="assets/camera/camera.js"></script>
 	<script src="assets/slidemenu/js/menu.js"></script>
