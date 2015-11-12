@@ -58,27 +58,27 @@
 		</div>
 	</div>
 	<div class="row text-center siguiente">
-		<a href="javascript:goToSection(2)" >
+		<a href="javascript:goToSection(4)" >
 			<img src="media/images/icono_flecha-abajo-negra.png" alt="">
 		</a>
 	</div>
 </div>
-	<div id="myModal-personal" class="reveal-modal xlarge" data-reveal aria-hidden="true" role="dialog">
+	<div id="myModal-personal" class="reveal-modal reveal-modal-cajas xlarge" data-reveal aria-hidden="true" role="dialog">
 	  <?php $tipo = 1; include("galeria_cajas/mostrar_cajas.php"); ?>
 	  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 	</div>
 
-	<div id="myModal-corporativa" class="reveal-modal xlarge" data-reveal aria-hidden="true" role="dialog">
+	<div id="myModal-corporativa" class="reveal-modal reveal-modal-cajas xlarge" data-reveal aria-hidden="true" role="dialog">
 	  <?php $tipo = 2; include("galeria_cajas/mostrar_cajas.php"); ?>
 	  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 	</div>
 
-	<div id="myModal-deluxe" class="reveal-modal xlarge" data-reveal aria-hidden="true" role="dialog">
+	<div id="myModal-deluxe" class="reveal-modal reveal-modal-cajas xlarge" data-reveal aria-hidden="true" role="dialog">
 	  <?php $tipo = 3; include("galeria_cajas/mostrar_cajas.php"); ?>
 	  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 	</div>
 
-	<div id="myModal-premium" class="reveal-modal xlarge" data-reveal aria-hidden="true" role="dialog">
+	<div id="myModal-premium" class="reveal-modal reveal-modal-cajas xlarge" data-reveal aria-hidden="true" role="dialog">
 	  <?php $tipo = 4; include("galeria_cajas/mostrar_cajas.php"); ?>
 	  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 	</div>

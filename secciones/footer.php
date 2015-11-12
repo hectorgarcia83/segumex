@@ -52,11 +52,23 @@
 					¿Tiénes alguna duda? Déjanos tu correo y nos pondremos en contacto contigo.
 				</div>
 				<div class="small-8 columns text-center inputmail">
-					<input type="text" placeholder="Deja aquí tu correo electrónico" />
+					<input type="text" name="txtCorreo" id="txtCorreo" placeholder="Deja aquí tu correo electrónico" />
+					<small class="error" id="errorMensajeMail">Captura un correo electrónico válido</small>
 				</div>
 				<div class="small-4 columns text-left enviarmail">
-					<a href="#" class="button small secondary white">Enviar</a>
+					<a href="javascript:enviarMail()" class="button small secondary white" id="btnEnviar">Enviar</a>
 				</div>
+
+			</div>
+		</div>
+		<div class="row">
+			<!--<a href="#" data-reveal-id="myModalThanks">Thankyou</a>-->
+
+			<div id="myModalThanks" class="reveal-modal small" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+				<h2 id="modalTitle">Muchas gracias.</h2>
+				<p class="lead">Tu correo ha sido almacenado exitosamente.</p>
+				<p>Nosotros nos pondremos en contacto contigo.</p>
+				<a class="close-reveal-modal" aria-label="Close">&#215;</a>
 			</div>
 		</div>
 	</form>

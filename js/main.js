@@ -7,6 +7,7 @@ $(document).ready(function() {
 
     $(document).foundation({ "magellan-expedition": { destination_threshold: 85 } });
     
+    $('#errorMensajeMail').hide();
     $('#my-video').backgroundVideo();
     
     $('.camera_wrap').camera({
@@ -122,4 +123,37 @@ function goToSection(item){
       break;
     
   }
+}
+
+function enviarMail(){
+  var mail = $('#txtCorreo').val();
+
+  if(mail == "" || !validarEmail(mail)){
+    $('#errorMensajeMail').show();
+    $('#txtCorreo').addClass('error');
+  }else{
+    $('#errorMensajeMail').hide();
+    $('#txtCorreo').removeClass('error');
+    $('#btnEnviar').addClass('disabled');
+    $('#btnEnviar').attr('disabled', true);
+    $('#btnEnviar').html('Enviando...');
+
+    $.post('sendMail.php',{mail: mail}, function(data){
+      console.log(data);
+      $('#btnEnviar').removeClass('disabled');
+      $('#btnEnviar').attr('disabled', false);
+      $('#btnEnviar').html('Enviar');
+      $('#myModalThanks').foundation('reveal', 'open');
+    });
+  }
+}
+
+function validarEmail( email ) {
+  expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  if ( !expr.test(email) ){
+    return false;
+  }else{
+    return true;
+  }
+    
 }

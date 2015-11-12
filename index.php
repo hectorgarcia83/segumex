@@ -28,16 +28,16 @@
 		<?php include("secciones/galeriacajas.php"); ?> 
 	</section>
 
-	<section id="formasdepago">
-		<?php include("secciones/formasdepago.php"); ?> 
+	<section id="altaseguridad">
+		<?php include("secciones/altaseguridad.php"); ?> 
 	</section>
 	
 	<section id="galeriaimagenes">
 		<?php include("secciones/galeriaimagenes.php"); ?>
 	</section>
 
-	<section id="altaseguridad">
-		<?php include("secciones/altaseguridad.php"); ?> 
+	<section id="formasdepago">
+		<?php include("secciones/formasdepago.php"); ?> 
 	</section>
 
 	<section id="nosotros">

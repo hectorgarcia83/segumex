@@ -62,7 +62,7 @@
 	</div>
 </div>
 <div class="row text-center siguiente">
-	<a href="javascript:goToSection(5)" >
+	<a href="javascript:goToSection(3)" >
 		<img src="media/images/icono_flecha-abajo.png" alt="">
 	</a>
 </div>
