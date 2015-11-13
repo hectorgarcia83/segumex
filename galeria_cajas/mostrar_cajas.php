@@ -37,10 +37,10 @@ switch ($tipo) {
 <div class="bottom-menu">
 	<div class="small-7 columns small-centered text-center">
 		<ul>
-			<li><a data-tipo="personal" href="void:" class="menutipocaja <?php echo ($tipo==1)?'active':'';?>">PERSONAL</a></li>
-			<li><a data-tipo="corporativa" href="void:" class="menutipocaja <?php echo ($tipo==2)?'active':'';?>">CORPORATIVA</a></li>
-			<li><a data-tipo="deluxe" href="void:" class="menutipocaja <?php echo ($tipo==3)?'active':'';?>">DELUXE</a></li>
-			<li><a data-tipo="premium" href="void:" class="menutipocaja <?php echo ($tipo==4)?'active':'';?>">PREMIUM</a></li>
+			<li><a data-tipo="personal" href="javascript:void" class="menutipocaja <?php echo ($tipo==1)?'active':'';?>">PERSONAL</a></li>
+			<li><a data-tipo="corporativa" href="javascript:void" class="menutipocaja <?php echo ($tipo==2)?'active':'';?>">CORPORATIVA</a></li>
+			<li><a data-tipo="deluxe" href="javascript:void" class="menutipocaja <?php echo ($tipo==3)?'active':'';?>">DELUXE</a></li>
+			<li><a data-tipo="premium" href="javascript:void" class="menutipocaja <?php echo ($tipo==4)?'active':'';?>">PREMIUM</a></li>
 		</ul>
 	</div>
 </div>
