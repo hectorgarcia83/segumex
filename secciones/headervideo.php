@@ -26,7 +26,7 @@ $frase = $frases[array_rand($frases, 1)];
 		</div>
 	</div>
 	<div id="video-wrap">
-	    <video id="my-video" preload="auto" autoplay loop muted poster="media/videos/videoejemplo.jpg">
+	    <video id="my-video" preload="auto" autoplay loop muted poster="media/videos/top_video.jpg">
 	        <source src="media/videos/top_video.mp4" type="video/mp4">
 	        <source src="media/videos/top_video.webm" type="video/webm">
 	        <source src="media/videos/top_video.ogg" type="video/ogg">

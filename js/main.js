@@ -5,8 +5,6 @@ $(document).ready(function() {
         animation: 'none'
       });
 
-    $(document).foundation({ "magellan-expedition": { destination_threshold: 85 } });
-    
     $('.top-menu').sticky({topSpacing:0});
     $('#errorMensajeMail').hide();
     $('#my-video').backgroundVideo();
