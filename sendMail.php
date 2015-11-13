@@ -11,5 +11,9 @@ $subject = "Registro de Correo Web Segumex";
 $body = "Una persona ha solicitado información desde el sitio web.";
 $body .= "<br>Su correo electrónico es: ".$_POST["mail"];
 
-mail($to,$subject,$body,"From:noreply@segumex.com");
+$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$cabeceras .= 'From: Segumex <no-reply@segumex.com>' . "\r\n";
+
+mail($to,$subject,$body,$cabeceras);
 ?>
