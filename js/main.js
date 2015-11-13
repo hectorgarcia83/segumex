@@ -138,7 +138,6 @@ function enviarMail(){
     $('#btnEnviar').html('Enviando...');
 
     $.post('sendMail.php',{mail: mail}, function(data){
-      console.log(data);
       $('#btnEnviar').removeClass('disabled');
       $('#btnEnviar').attr('disabled', false);
       $('#btnEnviar').html('Enviar');
