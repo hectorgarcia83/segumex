@@ -24,37 +24,37 @@
 	<div id="preguntasfrecuentes">
 		<div id="pregunta" class="small-3 columns text-center">
 			<div class="pregunta">
-				Aquí la pregunta frecuente 1 ok ok ok
+				¿Por qué rentar una caja de seguridad?
 			</div>
 			<div class="respuesta">
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
+				Las instalaciones de SEGUMEX® te brindan total protección y seguridad contra siniestros como incendios, inundaciones, robos, etc. Manteniendo tus objetos y documentos privados fuera del alcance de cualquier persona.
 			</div>
 		</div>
 
 		<div id="pregunta" class="small-3 columns text-center">
 			<div class="pregunta">
-				Aquí la pregunta frecuente 1 ok ok ok
+				¿El personal  de SEGUMEX® tiene acceso a mi Caja de Seguridad?
 			</div>
 			<div class="respuesta">
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
+				No, el procedimiento de acceso a la caja privada de seguridad requiere la llave del cliente en conjunto con una llave que sólo tiene el gerente de SEGUMEX®, brindando la seguridad que sólo el cliente maneja su caja. 
 			</div>
 		</div>
 
 		<div id="pregunta" class="small-3 columns text-center">
 			<div class="pregunta">
-				Aquí la pregunta frecuente 1 ok ok ok
+				¿Es necesario declarar lo que estoy resguardando?
 			</div>
 			<div class="respuesta">
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
+				No, en SEGUMEX® no necesitas declarar lo que guardas, volviendo el servicio totalmente confidencial.
 			</div>
 		</div>
 
 		<div id="pregunta" class="small-3 columns text-center">
 			<div class="pregunta">
-				Aquí la pregunta frecuente 1 ok ok ok
+				¿Qué medidas de seguridad tiene SEGUMEX®?
 			</div>
 			<div class="respuesta">
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
+				Contamos con monitoreo las 24 horas, diversos sensores monitoreando cualquier intrusión, y apoyo con fuerzas de seguridad. 
 			</div>
 		</div>		
 	</div>

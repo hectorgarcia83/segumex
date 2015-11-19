@@ -29,7 +29,7 @@
 			</div>
 			<div class="small-2 columns end text-center">
 				<div class="icon-red">
-					<a href="#" target="_blank"><i class="fa fa-map-marker"></i></a>
+					<a href="https://www.google.com.mx/maps/place/Segumex/@24.7899807,-107.4446245,17z/data=!3m1!4b1!4m2!3m1!1s0x86bcd066250fa897:0xb282a1e2ebb663b5" target="_blank"><i class="fa fa-map-marker"></i></a>
 				</div>
 			</div>
 		</div>
