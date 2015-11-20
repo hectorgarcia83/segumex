@@ -1,33 +1,33 @@
 <div class="footer">
 	<!--<img src="media/images/footer.png" alt="">-->
 	<div class="row">
-		<div class="small-3 small-centered columns logo text-center">
+		<div class="small-8 medium-3 small-centered medium-centered columns logo text-center">
 			<img src="media/images/logo_chico.png" alt="">
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-8 small-centered columns redessociales">
-			<div class="small-2 small-offset-1 columns text-center">
+		<div class="small-5 medium-12 large-10 small-centered medium-centered large-centered columns redessociales">
+			<div class="small-12 medium-2 medium-offset-1 columns text-center">
 				<div class="icon-red">
 					<a href="https://www.facebook.com/Segumex" target="_blank"><i class="fa fa-facebook"></i></a>
 				</div>
 			</div>
-			<div class="small-2 columns text-center">
+			<div class="small-12 medium-2 columns text-center">
 				<div class="icon-red">
 					<a href="https://twitter.com/SegumexOficial" target="_blank"><i class="fa fa-twitter"></i></a>
 				</div>
 			</div>
-			<div class="small-2 columns text-center">
+			<div class="small-12 medium-2 columns text-center">
 				<div class="icon-red">
 					<a href="https://www.instagram.com/segumex/" target="_blank"><i class="fa fa-instagram"></i></a>
 				</div>
 			</div>
-			<div class="small-2 columns text-center">
+			<div class="small-12 medium-2 columns text-center">
 				<div class="icon-red">
 					<a href="https://www.youtube.com/channel/UCPha6EeBYe82x7-Q_4ENQkg/videos" target="_blank"><i class="fa fa-youtube"></i></a>
 				</div>
 			</div>
-			<div class="small-2 columns end text-center">
+			<div class="small-12 medium-2 columns end text-center">
 				<div class="icon-red">
 					<a href="https://www.google.com.mx/maps/place/Segumex/@24.7899807,-107.4446245,17z/data=!3m1!4b1!4m2!3m1!1s0x86bcd066250fa897:0xb282a1e2ebb663b5" target="_blank"><i class="fa fa-map-marker"></i></a>
 				</div>
@@ -35,7 +35,7 @@
 		</div>
 	</div>
 	<div class="row domicilio">
-		<div class="small-3 columns small-centered text-center telefono">
+		<div class="small-12 columns small-centered text-center telefono">
 			TEL. (667) 721 5890
 		</div>
 		<div class="small-12 text-center direccion">
@@ -47,15 +47,15 @@
 	</div>
 	<form action="">
 		<div class="row" id="mailcontact">
-			<div class="small-8 columns small-centered text-center">
+			<div class="small-12 medium-8 columns small-centered medium-centered text-center">
 				<div class="small-12 columns legend text-center">
 					¿Tiénes alguna duda? Déjanos tu correo y nos pondremos en contacto contigo.
 				</div>
-				<div class="small-8 columns text-center inputmail">
+				<div class="small-12 medium-8 columns text-center inputmail">
 					<input type="text" name="txtCorreo" id="txtCorreo" placeholder="Deja aquí tu correo electrónico" />
 					<small class="error" id="errorMensajeMail">Captura un correo electrónico válido</small>
 				</div>
-				<div class="small-4 columns text-left enviarmail">
+				<div class="small-12 medium-4 columns text-center enviarmail">
 					<a href="javascript:enviarMail()" class="button small secondary white" id="btnEnviar">Enviar</a>
 				</div>
 

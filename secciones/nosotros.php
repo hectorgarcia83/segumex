@@ -1,12 +1,12 @@
 
 <div class="row">
-	<div class="small-6 columns small-centered text-center">
+	<div class="small-12 medium-6 columns medium-centered text-center">
 		<div class="titulo">¿QUIÉNES SOMOS?</div>	
 	</div>
 </div>
 
 <div class="row">
-	<div class="small-8 columns small-centered text-center">
+	<div class="small-12 medium-8 columns medium-centered text-center">
 		<div class="contenido">
 			Somos una empresa 100% mexicana que ofrece servicio de resguardo de objetos de valor personales y de su empresa, con los más altos estándares de seguridad.
 			<br>Servicio de primera calidad, en donde lo más importante es la seguridad de nuestros clientes y sus objetos de valor.
@@ -16,13 +16,13 @@
 </div>
 
 <div class="row">
-	<div class="small-5 columns small-centered text-center titulo-preguntasfrecuentes">
+	<div class="small-10 medium-5 columns small-centered medium-centered text-center titulo-preguntasfrecuentes">
 		PREGUNTAS FRECUENTES
 	</div>
 </div>
 <div class="row">
 	<div id="preguntasfrecuentes">
-		<div id="pregunta" class="small-3 columns text-center">
+		<div id="pregunta" class="small-12 medium-6 large-3 columns text-center">
 			<div class="pregunta">
 				¿Por qué rentar una caja de seguridad?
 			</div>
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<div id="pregunta" class="small-3 columns text-center">
+		<div id="pregunta" class="small-12 medium-6 large-3 columns text-center">
 			<div class="pregunta">
 				¿El personal  de SEGUMEX® tiene acceso a mi Caja de Seguridad?
 			</div>
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 
-		<div id="pregunta" class="small-3 columns text-center">
+		<div id="pregunta" class="small-12 medium-6 large-3 columns text-center">
 			<div class="pregunta">
 				¿Es necesario declarar lo que estoy resguardando?
 			</div>
@@ -49,7 +49,7 @@
 			</div>
 		</div>
 
-		<div id="pregunta" class="small-3 columns text-center">
+		<div id="pregunta" class="small-12 medium-6 large-3 columns text-center">
 			<div class="pregunta">
 				¿Qué medidas de seguridad tiene SEGUMEX®?
 			</div>

@@ -1,22 +1,10 @@
 <div id="nuestrascajas">
 	<div class="cajas">
-		<!--
-		<div class="row">
-			<div class="small-6 columns small-centered text-center">
-				<div class="titulochico">NUESTRA BÓVEDA</div>	
-			</div>
-		</div>
-		<div class="row">
-			<div class="small-4 columns small-centered text-center">
-				<div class="titulogrande">TIPOS DE CAJAS</div>
-			</div>
-		</div>
-		-->
 		<div class="row">
 			<div class="grid-cajas">
-				<div class="small-3 columns caja">
+				<div class="small-12 medium-6 large-3 columns caja">
 					<a href="javascript:void" data-reveal-id="myModal-personal">
-						<div class="caja-ejemplo personal">
+						<div class="caja-ejemplo text-center personal">
 							<img src="media/images/cajas_ejemplos/personal_off.png" alt="" id="img_personal">
 						</div>
 						<div class="nombre-caja text-center text-center">
@@ -24,9 +12,9 @@
 						</div>
 					</a>
 				</div>
-				<div class="small-3 columns caja">
+				<div class="small-12 medium-6 large-3 columns caja">
 					<a href="javascript:void" data-reveal-id="myModal-corporativa">
-						<div class="caja-ejemplo corporativa">
+						<div class="caja-ejemplo text-center corporativa">
 							<img src="media/images/cajas_ejemplos/corporativa_off.png" alt="" id="img_corporativa">
 						</div>
 						<div class="nombre-caja text-center">
@@ -34,9 +22,9 @@
 						</div>
 					</a>
 				</div>
-				<div class="small-3 columns caja">
+				<div class="small-12 medium-6 large-3 columns caja">
 					<a href="javascript:void" data-reveal-id="myModal-deluxe">
-						<div class="caja-ejemplo deluxe">
+						<div class="caja-ejemplo text-center deluxe">
 							<img src="media/images/cajas_ejemplos/deluxe_off.png" alt="" id="img_deluxe">
 						</div>
 						<div class="nombre-caja text-center">
@@ -44,9 +32,9 @@
 						</div>
 					</a>
 				</div>
-				<div class="small-3 columns caja">
+				<div class="small-12 medium-6 large-3 columns caja">
 					<a href="javascript:void" data-reveal-id="myModal-premium">
-						<div class="caja-ejemplo premium">
+						<div class="caja-ejemplo text-center premium">
 							<img src="media/images/cajas_ejemplos/premium_off.png" alt="" id="img_premium">
 						</div>
 						<div class="nombre-caja text-center">

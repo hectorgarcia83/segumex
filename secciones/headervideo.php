@@ -1,7 +1,7 @@
 <?php include("frasesaleatorias.php"); 
 $frase = $frases[array_rand($frases, 1)];
 ?>
-<div id="headervideo">
+<div id="headervideo" class="show-for-medium-only">
 	<div class="vid-overlay"></div>
 	<div class="horizontalinner">
 		<div class="row">

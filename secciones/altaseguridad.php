@@ -8,7 +8,7 @@
 	-->
 	<div class="row">
 		<div class="small-12 small-centered columns iconos-formasdepago">
-			<div class="small-2 small-offset-1 columns text-center">
+			<div class="small-12 medium-4 large-2 large-offset-1 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_huella.png" alt="">
 				</div>
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 
-			<div class="small-2 columns text-center">
+			<div class="small-12 medium-4 large-2 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_camara.png" alt="">
 				</div>
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 
-			<div class="small-2 columns text-center">
+			<div class="small-12 medium-4 large-2 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_codigo.png" alt="">
 				</div>
@@ -35,7 +35,7 @@
 				</div>
 			</div>
 
-			<div class="small-2 columns text-center">
+			<div class="small-12 medium-4 large-2 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_vigilancia.png" alt="">
 				</div>
@@ -44,7 +44,7 @@
 				</div>
 			</div>
 
-			<div class="small-2 columns end text-center">
+			<div class="small-12 medium-4 large-2 columns end text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_llave.png" alt="">
 				</div>
@@ -56,7 +56,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-8 columns small-centered text-center">
+		<div class="small-10 medium-9 large-8 columns small-centered medium-centered large-centered text-center">
 			<div class="planes-facilidades">PREGUNTA POR NUESTROS PLANES Y FACILIDADES DE PAGO</div>
 		</div>
 	</div>
