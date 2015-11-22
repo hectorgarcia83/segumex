@@ -1,5 +1,4 @@
 <div class="footer">
-	<!--<img src="media/images/footer.png" alt="">-->
 	<div class="row">
 		<div class="small-8 medium-3 small-centered medium-centered columns logo text-center">
 			<img src="media/images/logo_chico.png" alt="">

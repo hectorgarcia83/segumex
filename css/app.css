@@ -146,6 +146,14 @@ body{
 
 /* TOP MENU
 -------------------------------------------------------------- */
+@media (max-width: 480px) {
+  #menu-titulo{
+    margin-top: 8px !important;
+    font-size: 14px;
+    letter-spacing: 4px !important;
+  }  
+}
+
 
 .top-menu{
 	width: 100%;

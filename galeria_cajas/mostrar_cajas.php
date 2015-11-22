@@ -34,7 +34,7 @@ switch ($tipo) {
 	</div>
 </div>
 
-<div class="bottom-menu">
+<div class="bottom-menu hide-for-small-only">
 	<div class="small-7 columns small-centered text-center">
 		<ul>
 			<li><a data-tipo="personal" href="javascript:void" class="menutipocaja <?php echo ($tipo==1)?'active':'';?>">PERSONAL</a></li>

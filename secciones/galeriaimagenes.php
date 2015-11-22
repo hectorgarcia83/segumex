@@ -1,16 +1,3 @@
-<!--
-<div class="row">
-	<div class="small-6 columns small-centered text-center">
-		<div class="titulochico">CONOCENOS</div>	
-	</div>
-</div>
-
-<div class="row">
-	<div class="small-4 columns small-centered text-center">
-		<div class="titulogrande">GALERIA</div>
-	</div>
-</div>
--->
 <div class="galeria-imagenes">
 	<div class="row galeriaimagenes">
 		<div class="small-10 columns small-centered text-center">

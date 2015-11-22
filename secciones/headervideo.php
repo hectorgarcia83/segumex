@@ -1,16 +1,16 @@
 <?php include("frasesaleatorias.php"); 
 $frase = $frases[array_rand($frases, 1)];
 ?>
-<div id="headervideo" class="show-for-medium-only">
+<div id="headervideo" class="hide-for-small-only">
 	<div class="vid-overlay"></div>
 	<div class="horizontalinner">
 		<div class="row">
-			<div class="small-3 small-centered columns section-logo text-center">
+			<div class="medium-3 medium-centered columns section-logo text-center">
 				<img src="media/images/logo_SEGUMEX.png" alt="">
 			</div>
 		</div>
 		<div class="row">
-			<div class="small-9 small-centered columns section-title text-center">
+			<div class="medium-9 medium-centered columns section-title text-center">
 				<?php echo $frase; ?>
 			</div>
 		</div>
