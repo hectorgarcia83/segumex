@@ -4,8 +4,9 @@
 			<div class="grid-cajas">
 				<div class="small-12 medium-6 large-3 columns caja">
 					<a href="javascript:void" data-reveal-id="myModal-personal">
-						<div class="caja-ejemplo text-center personal">
-							<img src="media/images/cajas_ejemplos/personal_off.png" alt="" id="img_personal">
+						<div class="small-6 medium-6 large-12 columns small-centered caja-ejemplo text-center personal">
+							<img src="media/images/cajas_ejemplos/personal_off.png" alt="" id="img_personal" class="hide-for-small-only">
+							<img src="media/images/cajas_ejemplos/personal_on.png" alt="" id="img_personal" class="show-for-small-only">
 						</div>
 						<div class="nombre-caja text-center text-center">
 							PERSONAL
@@ -14,8 +15,9 @@
 				</div>
 				<div class="small-12 medium-6 large-3 columns caja">
 					<a href="javascript:void" data-reveal-id="myModal-corporativa">
-						<div class="caja-ejemplo text-center corporativa">
-							<img src="media/images/cajas_ejemplos/corporativa_off.png" alt="" id="img_corporativa">
+						<div class="small-6 medium-6 large-12 columns small-centered caja-ejemplo text-center corporativa">
+							<img src="media/images/cajas_ejemplos/corporativa_off.png" alt="" id="img_corporativa" class="hide-for-small-only">
+							<img src="media/images/cajas_ejemplos/corporativa_on.png" alt="" id="img_corporativa" class="show-for-small-only">
 						</div>
 						<div class="nombre-caja text-center">
 							CORPORATIVA
@@ -24,8 +26,9 @@
 				</div>
 				<div class="small-12 medium-6 large-3 columns caja">
 					<a href="javascript:void" data-reveal-id="myModal-deluxe">
-						<div class="caja-ejemplo text-center deluxe">
-							<img src="media/images/cajas_ejemplos/deluxe_off.png" alt="" id="img_deluxe">
+						<div class="small-6 medium-6 large-12 columns small-centered caja-ejemplo text-center deluxe">
+							<img src="media/images/cajas_ejemplos/deluxe_off.png" alt="" id="img_deluxe" class="hide-for-small-only">
+							<img src="media/images/cajas_ejemplos/deluxe_on.png" alt="" id="img_deluxe" class="show-for-small-only">
 						</div>
 						<div class="nombre-caja text-center">
 							DELUXE
@@ -34,8 +37,9 @@
 				</div>
 				<div class="small-12 medium-6 large-3 columns caja">
 					<a href="javascript:void" data-reveal-id="myModal-premium">
-						<div class="caja-ejemplo text-center premium">
-							<img src="media/images/cajas_ejemplos/premium_off.png" alt="" id="img_premium">
+						<div class="small-6 medium-6 large-12 columns small-centered caja-ejemplo text-center premium">
+							<img src="media/images/cajas_ejemplos/premium_off.png" alt="" id="img_premium" class="hide-for-small-only">
+							<img src="media/images/cajas_ejemplos/deluxe_on.png" alt="" id="img_deluxe" class="show-for-small-only">
 						</div>
 						<div class="nombre-caja text-center">
 							PREMIUM

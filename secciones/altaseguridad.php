@@ -1,7 +1,7 @@
 <div class="altaseguridad">
 	<div class="row">
-		<div class="small-12 small-centered columns iconos-formasdepago">
-			<div class="small-12 medium-4 large-2 large-offset-1 columns text-center">
+		<div class="small-5 medium-12 small-centered columns iconos-formasdepago">
+			<div class="small-12 medium-2 large-2 medium-offset-1 large-offset-1 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_huella.png" alt="">
 				</div>
@@ -10,7 +10,7 @@
 				</div>
 			</div>
 
-			<div class="small-12 medium-4 large-2 columns text-center">
+			<div class="small-12 medium-2 large-2 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_camara.png" alt="">
 				</div>
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 
-			<div class="small-12 medium-4 large-2 columns text-center">
+			<div class="small-12 medium-2 large-2 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_codigo.png" alt="">
 				</div>
@@ -28,7 +28,7 @@
 				</div>
 			</div>
 
-			<div class="small-12 medium-4 large-2 columns text-center">
+			<div class="small-12 medium-2 large-2 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_vigilancia.png" alt="">
 				</div>
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 
-			<div class="small-12 medium-4 large-2 columns end text-center">
+			<div class="small-12 medium-2 large-2 columns end text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_llave.png" alt="">
 				</div>

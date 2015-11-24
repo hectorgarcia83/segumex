@@ -1,6 +1,6 @@
 <div class="formasdepago">
 	<div class="row">
-		<div class="small-12 small-centered columns iconos-formasdepago">
+		<div class="small-5 medium-12 small-centered columns iconos-formasdepago">
 			<div class="small-12 medium-6 large-3 columns text-center">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_efectivo.png" alt="">
