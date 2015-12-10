@@ -2,7 +2,8 @@
 <div class="top-menu">
 	<nav>
 		<div class="small-4 medium-4 columns">
-			<img src="media/images/logo_horizontal.png" alt="">
+			<img src="media/images/logo_horizontal.png" alt="" class="hide-for-small-only">
+			<img src="media/images/mono_solo.png" alt="" class="show-for-small-only">
 		</div>
 		<div class="small-5 medium-4 columns text-center" id="menu-titulo">
 			

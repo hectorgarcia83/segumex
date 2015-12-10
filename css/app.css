@@ -5,6 +5,48 @@
   padding: 0 !important;
 }
 
+.show-for-small-only, .show-for-small-up, .show-for-small, .show-for-small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down{
+  /*display: inline !important;*/
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 480px) {
+  #menu-titulo{
+    margin-top: 13px !important;
+    font-size: 14px;
+    letter-spacing: 4px !important;
+  }  
+  .section-title{
+    font-size: 1.55em !important;
+  }
+
+  .horizontalinner .link-rentatucaja{
+    font-size: 1.55em !important;
+    margin-top: 90px !important;
+  }
+  .nombre-caja{
+    color: #BFAB1B !important;
+    border: solid 1px #C3C3C3 !important;
+  }
+  /*.altaseguridad-elemento,.formasdepago-elemento{
+    margin-bottom: 75px;
+  }
+  .icon-red{
+    margin-bottom: 20px;
+  }*/
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px){
+  #menu-titulo{
+    margin-top: 27px !important;
+  }  
+  .nombre-caja{
+    color: #BFAB1B !important;
+    border: solid 1px #C3C3C3 !important;
+  }
+}
+
 /* GENERALES
 -------------------------------------------------------------- */
 body{
@@ -84,7 +126,7 @@ body{
 -------------------------------------------------------------- */
 
 #headervideo{
-	position: relative; overflow: hidden; z-index: 1;
+	position: relative; overflow: hidden; z-index: 1;background-color: black;
 }
 .vid-overlay{
 	position: absolute; 
@@ -146,13 +188,7 @@ body{
 
 /* TOP MENU
 -------------------------------------------------------------- */
-@media (max-width: 480px) {
-  #menu-titulo{
-    margin-top: 8px !important;
-    font-size: 14px;
-    letter-spacing: 4px !important;
-  }  
-}
+
 
 
 .top-menu{
@@ -175,7 +211,7 @@ body{
 	font-weight: bold;
 	color: #FFF;
 	margin-top: 27px;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 }
 
 #menu-bar{
@@ -427,6 +463,10 @@ body{
   color: #FFF;
 }
 
+.formasdepago-elemento{
+  margin-bottom: 70px;
+}
+
 /* nosotros
 -------------------------------------------------------------- */
 
@@ -495,6 +535,10 @@ body{
   letter-spacing: 3px;
 }
 
+.altaseguridad-elemento{
+  margin-bottom: 75px;
+}
+
 /* Footer
 -------------------------------------------------------------- */
 #footer{
@@ -506,6 +550,10 @@ body{
 
 #footer .logo{
   margin-top: 50px;
+}
+
+.icon-red{
+  margin-bottom: 20px;
 }
 
 .redessociales{

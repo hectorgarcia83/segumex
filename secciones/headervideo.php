@@ -1,11 +1,11 @@
 <?php include("frasesaleatorias.php"); 
 $frase = $frases[array_rand($frases, 1)];
 ?>
-<div id="headervideo" class="hide-for-small-only">
+<div id="headervideo">
 	<div class="vid-overlay"></div>
 	<div class="horizontalinner">
 		<div class="row">
-			<div class="medium-3 medium-centered columns section-logo text-center">
+			<div class="small-5 medium-3 small-centered medium-centered columns section-logo text-center">
 				<img src="media/images/logo_SEGUMEX.png" alt="">
 			</div>
 		</div>
@@ -25,8 +25,8 @@ $frase = $frases[array_rand($frases, 1)];
 			</a>
 		</div>
 	</div>
-	<div id="video-wrap">
-	    <video id="my-video" preload="auto" autoplay loop muted poster="media/videos/top_video.jpg">
+	<div id="video-wrap" >
+	    <video id="my-video" preload="auto" autoplay loop muted poster="media/videos/top_video.jpg" class="hide-for-small-only">
 	        <source src="media/videos/top_video.mp4" type="video/mp4">
 	        <source src="media/videos/top_video.webm" type="video/webm">
 	        <source src="media/videos/top_video.ogg" type="video/ogg">
