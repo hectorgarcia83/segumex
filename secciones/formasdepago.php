@@ -1,7 +1,7 @@
 <div class="formasdepago">
 	<div class="row">
 		<div class="medium-12 medium-centered columns iconos-formasdepago">
-			<div class="small-12 medium-6 large-3 columns text-center formasdepago-elemento">
+			<div class="small-6 medium-6 large-3 columns text-center formasdepago-elemento">
 				<div class="icon-efectivo">
 					<img src="media/images/icono_efectivo.png" alt="">
 				</div>
@@ -9,7 +9,7 @@
 					EFECTIVO
 				</div>
 			</div>
-			<div class="small-12 medium-6 large-3 columns text-center formasdepago-elemento">
+			<div class="small-6 medium-6 large-3 columns text-center formasdepago-elemento">
 				<div class="icon-tarjeta">
 					<img src="media/images/icono_tarjeta.png" alt="">
 				</div>
@@ -17,7 +17,7 @@
 					TARJETA
 				</div>
 			</div>
-			<div class="small-12 medium-6 large-3 columns text-center formasdepago-elemento">
+			<div class="small-6 medium-6 large-3 columns text-center formasdepago-elemento">
 				<div class="icon-cheque">
 					<img src="media/images/icono_cheque.png" alt="">
 				</div>
@@ -25,7 +25,7 @@
 					CHEQUE
 				</div>
 			</div>
-			<div class="small-12 medium-6 large-3 columns text-center formasdepago-elemento">
+			<div class="small-6 medium-6 large-3 columns text-center formasdepago-elemento">
 				<div class="icon-cheque">
 					<img src="media/images/icono_transferencia.png" alt="">
 				</div>
