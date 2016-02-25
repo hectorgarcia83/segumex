@@ -34,20 +34,20 @@
 		</div>
 	</div>
 	<div class="row domicilio">
-		<div class="small-12 columns small-centered text-center telefono">
+		<div class="small-12 columns small-centered text-center direccion telefono">
 			TEL. (667) 721 5890
 		</div>
 		<div class="small-12 text-center direccion">
 			Blvd Miguel Tamayo #2350 local 13<br>
 			Plaza UC-360 frente a la USE<br>
 			Culiacán, Sinaloa<br>
-			info@securitybox.com.mx
+			ventas@securitybox.com.mx
 		</div>
 	</div>
 	<form action="">
 		<div class="row" id="mailcontact">
 			<div class="small-12 medium-8 columns small-centered medium-centered text-center">
-				<div class="small-12 columns legend text-center">
+				<div class="small-12 columns legend text-center direccion">
 					¿Tiénes alguna duda? Déjanos tu correo y nos pondremos en contacto contigo.
 				</div>
 				<div class="small-12 medium-8 columns text-center inputmail">

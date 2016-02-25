@@ -581,7 +581,7 @@ body{
 }
 .domicilio .telefono{
   color: #FFF;
-  font-family: "Arial Black";
+  font-size: 18px !important;
 }
 
 .domicilio .direccion{
